@@ -1,6 +1,7 @@
-* {
+html,
+body {
   margin: 0;
-  padding: 0;
+  height: 100%;
 }
 
 .logo {
@@ -12,8 +13,8 @@
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  border-bottom: 1px solid #ececee;
-  padding: 2% 7% 2% 6%;
+  border-bottom: 1px solid #e6e4e4;
+  padding: 1% 7% 1% 8%;
 }
 
 .nav-bar ul {
@@ -28,5 +29,28 @@
 }
 
 .nav-bar li a:hover {
-    color: #c1c4c7;
+  color: #c1c4c7;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  border-top: 1px solid #e6e4e4;
+  background-color: #fff;
+  color: #606061;
+  padding: 1% 7% 1% 6%;
+}
+
+.footer-socials {
+    display: flex;
+    padding-left: 35%;
+    gap: 20px;
+}
+
+.footer-socials-a {
+    font-size: 1.3rem;
+}
+
+/* #EEEEEE */
