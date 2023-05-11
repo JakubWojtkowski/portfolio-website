@@ -5,6 +5,10 @@ body {
   font-family: "Wix Madefor Display", "Sans-serif";
 }
 
+a {
+  text-decoration: none;
+}
+
 .logo {
   font-size: 30px;
 }
@@ -15,43 +19,59 @@ body {
   align-items: center;
   background-color: #fff;
   border-bottom: 1px solid #e6e4e4;
-  padding: 1% 7% 1% 8%;
+  padding: 0% 6% 0% 7%;
 }
 
 .nav-bar ul {
   display: flex;
-  gap: 60px;
+  gap: 45px;
   list-style: none;
 }
 
 .nav-bar li a {
-  text-decoration: none;
-  color: #606061;
+  color: #515153;
 }
 
 .nav-bar li a:hover {
-  color: #c1c4c7;
+  color: #b7b8ba;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+#contact {
 }
 
 .footer {
   display: flex;
   justify-content: center;
+  width: 100%;
   align-items: center;
   font-size: 1.1rem;
   border-top: 1px solid #e6e4e4;
-  background-color: #fff;
-  color: #606061;
-  padding: 1% 7% 1% 6%;
+  background-color: #373737;
+  color: #515153;
+  padding: 1rem 0;
 }
 
 .footer-socials {
-    display: flex;
-    padding-left: 35%;
-    gap: 20px;
+  display: flex;
+  max-width: 50px;
+  padding-left: 35%;
+  gap: 20px;
 }
 
-.footer-socials-a {
-    font-size: 1.3rem;
+.footer-i {
+  color: #eee;
+  font-size: 1.1rem;
+}
+
+.footer-i:hover {
+  color: #b7b8ba;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
 }
 
 /* #EEEEEE */
