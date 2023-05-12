@@ -3,14 +3,20 @@ body {
   margin: 0;
   height: 100%;
   font-family: "Wix Madefor Display", "Sans-serif";
+  font-weight: 700;
 }
 
 a {
   text-decoration: none;
+  padding: 0 10px;
+}
+
+.container {
+  margin: 0 auto;
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 2.5rem;
 }
 
 .nav-bar {
@@ -29,49 +35,64 @@ a {
 }
 
 .nav-bar li a {
-  color: #515153;
+  color: #8c8c8f;
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.nav-bar li a::after {
+  content: "";
+  position: absolute;
+  background-color: #100e0e;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
 }
 
 .nav-bar li a:hover {
-  color: #b7b8ba;
+  color: #000000;
 }
 
-.container {
-  margin: 0 auto;
+.nav-bar li a:hover::after {
+  width: 100%;
 }
 
-#contact {
-}
+/* #contact {
+  
+} */
 
 .footer {
   display: flex;
   justify-content: center;
   width: 100%;
   align-items: center;
-  font-size: 1.1rem;
   border-top: 1px solid #e6e4e4;
   background-color: #373737;
-  color: #515153;
+  color: #8c8c8f;
   padding: 1rem 0;
 }
 
 .footer-socials {
   display: flex;
+  position: relative;
   max-width: 50px;
   padding-left: 35%;
   gap: 20px;
 }
 
 .footer-i {
+  position: absolute;
+  top: -15px;
+  padding: 10px;
   color: #eee;
   font-size: 1.1rem;
 }
 
 .footer-i:hover {
-  color: #b7b8ba;
-  font-size: 1.2rem;
-  margin: 0;
-  padding: 0;
+  color: #8c8c8f;
+  transition: 0.2s;
+  scale: 1.2;
 }
-
 /* #EEEEEE */
