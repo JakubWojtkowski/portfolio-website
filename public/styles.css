@@ -12,11 +12,29 @@ a {
 }
 
 .container {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.card {
+  max-width: 1200px;
+  min-width: 400px;
+  max-height: 800px;
+  min-height: 400px;
+  width: 100%;
+  height: 100%;
+  background-color: #9d9898;
+  margin: 20px;
+  border-radius: 30px;
 }
 
 .logo {
   font-size: 2.5rem;
+  font-family: "lobster";
+  padding: 0% 6% 0% 7%;
 }
 
 .nav-bar {
@@ -25,13 +43,17 @@ a {
   align-items: center;
   background-color: #fff;
   border-bottom: 1px solid #e6e4e4;
-  padding: 0% 6% 0% 7%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
 }
 
 .nav-bar ul {
   display: flex;
-  gap: 45px;
+  gap: 40px;
   list-style: none;
+  padding: 0% 6% 0% 7%;
 }
 
 .nav-bar li a {
