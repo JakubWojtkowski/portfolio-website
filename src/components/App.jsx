@@ -3,6 +3,7 @@ import Fade from "react-reveal/Fade";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import Contact from "./Contact";
+import Intro from "./Intro";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Nav />
       <div className="container">
         <Fade top distance="20%" duration={1500}>
-          <div className="card"></div>
+          <Intro />
           <div className="card"></div>
           <div className="card"></div>
           <div className="card"></div>
