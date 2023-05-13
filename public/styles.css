@@ -16,6 +16,10 @@ h1 {
   font-family: "Montserrat";
 }
 
+h2 {
+  font-size: 2rem;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -25,7 +29,7 @@ h1 {
   position: relative;
 }
 
-.card {
+/* .card {
   max-width: 1000px;
   min-width: 400px;
   max-height: 800px;
@@ -35,7 +39,7 @@ h1 {
   background-color: #9d9898;
   margin: 20px;
   border-radius: 30px;
-}
+} */
 
 .logo {
   font-size: 2rem;
@@ -57,7 +61,7 @@ h1 {
   left: 0;
   height: 10vh;
   z-index: 1;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.09);
 }
 
 .nav-bar ul {
@@ -93,10 +97,8 @@ h1 {
 }
 
 .middle-container {
-  background-color: #f9f9f9;
   position: relative;
-  margin: 10vh auto;
-  height: 100vh;
+  margin: 0 auto;
 }
 
 .intro {
@@ -104,17 +106,41 @@ h1 {
   grid-template-columns: auto auto;
   grid-gap: 50px;
   background-color: #f9f9f9;
-  padding: 7% 10%;
+  height: 100vh;
+  padding: 7% 15%;
+  position: relative;
+  margin: 10vh auto 0 auto;
 }
 
 .intro-img {
   width: 100%;
-  border-radius: 100%;
 }
 
 .intro-text {
   width: 70%;
-  text-align: left;
+  text-align: justify;
+}
+
+.intro-text > p {
+  line-height: 2;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 7% 15%;
+}
+
+.about-text {
+  line-height: 2;
+  text-align: justify;
+}
+
+.about-img {
+  margin: auto;
+  width: 50%;
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 2;
 }
 
 .footer {
