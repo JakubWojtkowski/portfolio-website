@@ -4,7 +4,7 @@ function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <h1>Get in touch</h1>
+        <h2>Get in touch</h2>
         <a href="mailto:jvkub.wojtkowski@gmail.com">
         <i className="fa-thin fa-envelope-open-text"></i>
           <span>Mail </span>jvkub.wojtkowski@gmail.com

@@ -3,6 +3,7 @@ body {
   margin: 0;
   height: 100%;
   font-family: "Wix Madefor Display", "Sans-serif";
+  box-sizing: border-box;
 }
 
 a {
@@ -10,16 +11,17 @@ a {
   padding: 0 10px;
 }
 
-/* h1 {
-  font-family;
-} */
+h1 {
+  font-size: 3.5rem;
+  font-family: "Montserrat";
+}
 
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3% 0;
+  /* margin: 3% 0; */
   position: relative;
 }
 
@@ -36,7 +38,7 @@ a {
 }
 
 .logo {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: "lobster";
   font-weight: lighter;
   padding: 0% 6% 0% 7%;
@@ -52,13 +54,15 @@ a {
   overflow: hidden;
   position: fixed;
   top: 0;
-  height: 12vh;
+  left: 0;
+  height: 10vh;
   z-index: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
 }
 
 .nav-bar ul {
   display: flex;
-  gap: 40px;
+  gap: 20px;
   list-style: none;
   padding: 0% 6% 0% 7%;
 }
@@ -88,19 +92,29 @@ a {
   width: 100%;
 }
 
+.middle-container {
+  background-color: #f9f9f9;
+  position: relative;
+  margin: 10vh auto;
+  height: 100vh;
+}
+
 .intro {
-  background-color: #8a3535;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 50px;
+  background-color: #f9f9f9;
+  padding: 7% 10%;
 }
 
 .intro-img {
-  border-radius: 50%;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  border-radius: 100%;
 }
 
 .intro-text {
-  width: 50%;
-  text-align: center;
+  width: 70%;
+  text-align: left;
 }
 
 .footer {
@@ -112,6 +126,7 @@ a {
   background-color: #373737;
   color: #8c8c8f;
   padding: 1rem 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
 }
 
 .footer-socials {

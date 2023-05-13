@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <Intro />
       <div className="container">
-        <Fade top distance="20%" duration={1500}>
-          <Intro />
+        <Fade bottom distance="20%" duration={2000}>   
           <div className="card"></div>
           <div className="card"></div>
           <div className="card"></div>
