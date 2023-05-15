@@ -18,6 +18,7 @@ function Intro() {
           Hello. I'm Jakub Wojtkowski. A passionate about creating websites that
           make people happy and catch the eye.
         </p>
+        <button className="intro-btn"><i class="fa-solid fa-terminal"></i> View My Porfolio </button>
       </div>
     </div>
   );
