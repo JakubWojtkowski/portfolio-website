@@ -17,6 +17,10 @@ h1 {
   text-align: left;
 }
 
+button {
+  font-family: "Montserrat";
+}
+
 h2 {
   font-size: 2rem;
 }
@@ -63,6 +67,11 @@ h2 {
   height: 10vh;
   z-index: 1;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.09);
+}
+
+.scroll {
+  backdrop-filter: blur(30px);
+  opacity: 0.3;
 }
 
 .nav-bar ul {
@@ -135,15 +144,16 @@ h2 {
   border: 2px solid #111;
   border-radius: 28px;
   cursor: pointer;
-  font-family: Inter, sans-serif;
   font-size: 12px;
   height: 48px;
   max-width: 100%;
   padding: 10px 20px;
+  box-shadow: #322e2e 5px 5px 5px;
 }
 
 .intro-btn:hover {
-  background-color: #000000;
+  transition: 0.4s;
+  box-shadow: none;
 }
 
 .about {
