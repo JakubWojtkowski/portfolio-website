@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Contact from "./Contact";
 import Intro from "./Intro";
 import About from "./About";
+import Skills from "./Skills";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Fade bottom distance="20%" duration={2000}>
         <Intro />
         <About />
-
+        <Skills />
         <Contact />
       </Fade>
       <Footer />

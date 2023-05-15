@@ -10,6 +10,7 @@ function Intro() {
     ],
     typeSpeed: 100,
     deleteSpeed: 80,
+    delaySpeed: 1000
   });
 
   return (
@@ -26,7 +27,7 @@ function Intro() {
           <br /> Developer.
         </h1>
         <p>
-          Hello. I'm <span className="intro-text-type">{text}</span>. A
+          Hello <span style={{fontSize: "2rem"}}>👋🏼</span>. I'm <span className="intro-text-type">{text}</span>. A
           passionate about creating websites that make people happy and catch
           the eye.
         </p>
