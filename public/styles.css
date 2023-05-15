@@ -127,13 +127,20 @@ h2 {
 }
 
 .intro-text {
-  width: 70%;
+  width: 65%;
   text-align: center;
+}
+
+.intro-text-type {
+  color: black;
+  font-weight: 900;
+  font-size: 1.1rem;
 }
 
 .intro-text > p {
   text-align: left;
   line-height: 2;
+  color: #5e5c5c;
 }
 
 .intro-text .intro-btn {

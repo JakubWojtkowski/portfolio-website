@@ -1,6 +1,17 @@
 import React from "react";
+import { useTypewriter } from "react-simple-typewriter";
 
 function Intro() {
+  const [text] = useTypewriter({
+    words: [
+      "Front-end Developer",
+      "Back-end Developer",
+      "Jakub Wojtkowski",
+    ],
+    typeSpeed: 100,
+    deleteSpeed: 80,
+  });
+
   return (
     <div className="intro">
       <div className="intro-img">
@@ -15,10 +26,13 @@ function Intro() {
           <br /> Developer.
         </h1>
         <p>
-          Hello. I'm Jakub Wojtkowski. A passionate about creating websites that
-          make people happy and catch the eye.
+          Hello. I'm <span className="intro-text-type">{text}</span>. A
+          passionate about creating websites that make people happy and catch
+          the eye.
         </p>
-        <button className="intro-btn"><i class="fa-solid fa-terminal"></i> View My Porfolio </button>
+        <button className="intro-btn">
+          <i class="fa-solid fa-terminal"></i> View My Porfolio{" "}
+        </button>
       </div>
     </div>
   );
