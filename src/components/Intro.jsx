@@ -3,14 +3,10 @@ import { useTypewriter } from "react-simple-typewriter";
 
 function Intro() {
   const [text] = useTypewriter({
-    words: [
-      "Front-end Developer",
-      "Back-end Developer",
-      "Jakub Wojtkowski",
-    ],
+    words: ["Front-end Developer", "Back-end Developer", "Jakub Wojtkowski"],
     typeSpeed: 100,
     deleteSpeed: 80,
-    delaySpeed: 1000
+    delaySpeed: 1000,
   });
 
   return (
@@ -27,9 +23,9 @@ function Intro() {
           <br /> Developer.
         </h1>
         <p>
-          Hello <span style={{fontSize: "2rem"}}>👋🏼</span>. I'm <span className="intro-text-type">{text}</span>. A
-          passionate about creating websites that make people happy and catch
-          the eye.
+          Hello <span style={{ fontSize: "2rem" }}>👋🏼</span>. I'm{" "}
+          <span className="intro-text-type">{text}</span>.<br />A passionate
+          about creating websites that make people happy and catch the eye.
         </p>
         <button className="intro-btn">
           <i class="fa-solid fa-terminal"></i> View My Porfolio{" "}

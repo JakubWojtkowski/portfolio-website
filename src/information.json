@@ -1,0 +1,22 @@
+ [
+    {
+         "id": 1,
+         "property": "NAME",
+         "value": "Jakub Wojtkowski"
+     },
+     {
+         "id": 2,
+         "property": "EMAIL",
+         "value": "jvkub.wojtkowski@gmail.com"
+     },
+     {
+        "id": 3,
+        "property": "EMPLOYMENT",
+         "value": "open"
+     },
+     {
+        "id": 4,
+        "property": "EDUCATION",
+         "value": "University of Technology in Białystok"
+     }
+ ]

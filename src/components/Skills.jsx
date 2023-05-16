@@ -25,16 +25,16 @@ function Skills() {
     <section id="skills">
       <div class="middle-container">
         <div className="skills">
-          <h2>Skills</h2>
+          <h2>SKILLS</h2>
           <div className="skills-items">
             <div className="skill-item hidden">
-              <img src="https://media.giphy.com/media/8ah1D978pNLT8bUC5s/giphy.gif" alt="img" />
+              <h3></h3>
             </div>
             <div className="skill-item hidden">
-              <img src="https://media.giphy.com/media/8ah1D978pNLT8bUC5s/giphy.gif" alt="img" />
+              <h3></h3>
             </div>
             <div className="skill-item hidden">
-              <img src="https://media.giphy.com/media/8ah1D978pNLT8bUC5s/giphy.gif" alt="img" />
+              <h3></h3>
             </div>
           </div>
         </div>
