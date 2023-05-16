@@ -26,15 +26,13 @@ function Skills() {
       <div class="middle-container">
         <div className="skills">
           <h2>SKILLS</h2>
+          <span>- An overview of my Technical Skills -</span>
           <div className="skills-items">
-            <div className="skill-item hidden">
-              <h3></h3>
+            <div className="skill-item-card hidden">
+              <h3>Front-end</h3>
             </div>
-            <div className="skill-item hidden">
-              <h3></h3>
-            </div>
-            <div className="skill-item hidden">
-              <h3></h3>
+            <div className="skill-item-card hidden">
+              <h3>Back-end</h3>
             </div>
           </div>
         </div>
