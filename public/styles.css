@@ -218,7 +218,7 @@ h2 {
 }
 
 .skills span {
-  color: #848181 ;
+  color: #848181;
   font-size: 0.8rem;
   padding-bottom: 10%;
 }
@@ -241,22 +241,16 @@ h2 {
   text-align: center;
   color: #000000;
   position: relative;
+  scale: 0.8;
+  filter: blur(3px);
 }
 
 .skill-item-card:hover {
   color: #fafafa;
   background-color: #000;
-  scale: 1.1;
-  animation: mymove 3s;
+  scale: 1;
+  filter: blur(0);
 }
-
-@keyframes mymove {
-  from {rotate: 0deg}
-  to {rotate: 5deg}
-  from {rotate: 0}
-  to {rotate: -5deg}
-}
-
 
 .skills-items:nth-child(2) {
   transition-delay: 200ms;
