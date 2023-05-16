@@ -250,6 +250,7 @@ h2 {
   scale: 1;
   filter: blur(0);
   transform: translateY(-10px);
+  /* background: linear-gradient(1deg, #e7e5e5, #fafafa); */
 }
 
 .skills-items:nth-child(2) {
@@ -270,6 +271,10 @@ h2 {
 .skill-item-card-box-element {
   display: flex;
   flex-direction: column;
+}
+
+.skill-item-card-box-element > i{
+  font-size: 1.3rem;
 }
 
 .footer {

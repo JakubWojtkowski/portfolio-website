@@ -25,16 +25,18 @@ function Skills() {
     <section id="skills">
       <div class="middle-container">
         <div className="skills">
-          <h2 >SKILLS</h2>
-          <span style={{paddingBottom: "20px"}}>- An overview of my Technical Skills -</span>
+          <h2>SKILLS</h2>
+          <span style={{ paddingBottom: "20px" }}>
+            - An overview of my Technical Skills -
+          </span>
           <div className="skills-items">
             <div className="skill-item-card hidden">
               <h3>Front-end</h3>
               <div className="skill-item-card-box">
                 <div className="skill-item-card-box-element">
-                  <i class="fa-brands fa-js"></i>
-                  <p>Javascript</p>
-                  <span>Intermediate</span>
+                  <i class="fa-brands fa-angular"></i>
+                  <p>Angular.js</p>
+                  <span>Basic</span>
                 </div>
                 <div className="skill-item-card-box-element">
                   <i class="fa-brands fa-react"></i>
@@ -71,6 +73,32 @@ function Skills() {
                   <p>Node.js</p>
                   <span>Intermediate</span>
                 </div>
+                <div className="skill-item-card-box-element">
+                  <i class="fa-brands fa-java"></i>
+                  <p>Java</p>
+                  <span>Basic</span>
+                </div>
+                <div className="skill-item-card-box-element">
+                  <i>∞</i>
+                  <p>Motoko</p>
+                  <span>Basic</span>
+                </div>
+                <div className="skill-item-card-box-element">
+                <i class="fa-brands fa-js"></i>
+                  <p>Javascript</p>
+                  <span>Intermediate</span>
+                </div>
+                <div className="skill-item-card-box-element">
+                <i class="fa-solid fa-database"></i>
+                  <p>SQL</p>
+                  <span>Intermediate</span>
+                </div>
+                <div className="skill-item-card-box-element">
+                <i class="fa-solid fa-database"></i>
+                  <p>MongoDB</p>
+                  <span>Basic</span>
+                </div>
+                
               </div>
             </div>
           </div>
