@@ -25,7 +25,7 @@ button {
 h2 {
   font-size: 1rem;
   letter-spacing: 1px;
-  color: rgb(70, 114, 211);
+  color: #3A3D4E;
   font-family: "Montserrat";
   text-align: left;
   display: flex;
@@ -56,9 +56,9 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
-  border-bottom: 1px solid #efeded;
   width: 100%;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -129,7 +129,7 @@ h2 {
   color: black;
   font-weight: 900;
   font-size: 1.1rem;
-  background: linear-gradient(to right, rgb(37, 120, 236), rgb(69, 214, 202));
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -273,7 +273,7 @@ h2 {
   flex-direction: column;
 }
 
-.skill-item-card-box-element > i{
+.skill-item-card-box-element > i {
   font-size: 1.3rem;
 }
 
