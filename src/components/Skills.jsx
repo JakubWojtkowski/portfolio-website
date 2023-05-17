@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import skills from "../skills.json";
 
 function Skills() {
   function showSkills() {
@@ -32,73 +33,31 @@ function Skills() {
           <div className="skills-items">
             <div className="skill-item-card hidden">
               <h3>Front-end</h3>
+
               <div className="skill-item-card-box">
-                <div className="skill-item-card-box-element">
-                  <i class="fa-brands fa-angular"></i>
-                  <p>Angular.js</p>
-                  <span>Basic</span>
-                </div>
-                <div className="skill-item-card-box-element">
-                  <i class="fa-brands fa-react"></i>
-                  <p>React.js</p>
-                  <span>Basic</span>
-                </div>
-                <div className="skill-item-card-box-element">
-                  <i class="fa-brands fa-html5"></i>
-                  <p>HTML</p>
-                  <span>Intermediate</span>
-                </div>
-                <div className="skill-item-card-box-element">
-                  <i class="fa-brands fa-css3-alt"></i>
-                  <p>CSS</p>
-                  <span>Intermediate</span>
-                </div>
-                <div className="skill-item-card-box-element">
-                  <i class="fa-brands fa-bootstrap"></i>
-                  <p>Bootstrap</p>
-                  <span>Basic</span>
-                </div>
-                <div className="skill-item-card-box-element">
-                  <i class="fa-brands fa-git-alt"></i>
-                  <p>Git</p>
-                  <span>Basic</span>
-                </div>
+                {skills.frontend.map((skill, index) => {
+                  return (
+                    <div className="skill-item-card-box-element" key={skill.id}>
+                      <i className={skill.icon}></i>
+                      <p>{skill.name}</p>
+                      <span>{skill.level}</span>
+                    </div>
+                  );
+                })}
               </div>
             </div>
             <div className="skill-item-card hidden">
               <h3>Back-end</h3>
               <div className="skill-item-card-box">
-                <div className="skill-item-card-box-element">
-                  <i class="fa-brands fa-node"></i>
-                  <p>Node.js</p>
-                  <span>Intermediate</span>
-                </div>
-                <div className="skill-item-card-box-element">
-                  <i class="fa-brands fa-java"></i>
-                  <p>Java</p>
-                  <span>Basic</span>
-                </div>
-                <div className="skill-item-card-box-element">
-                  <i>∞</i>
-                  <p>Motoko</p>
-                  <span>Basic</span>
-                </div>
-                <div className="skill-item-card-box-element">
-                <i class="fa-brands fa-js"></i>
-                  <p>Javascript</p>
-                  <span>Intermediate</span>
-                </div>
-                <div className="skill-item-card-box-element">
-                <i class="fa-solid fa-database"></i>
-                  <p>SQL</p>
-                  <span>Intermediate</span>
-                </div>
-                <div className="skill-item-card-box-element">
-                <i class="fa-solid fa-database"></i>
-                  <p>MongoDB</p>
-                  <span>Basic</span>
-                </div>
-                
+                {skills.backend.map((skill) => {
+                  return (
+                    <div className="skill-item-card-box-element" key={skill.id}>
+                      <i className={skill.icon}></i>
+                      <p>{skill.name}</p>
+                      <span>{skill.level}</span>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>

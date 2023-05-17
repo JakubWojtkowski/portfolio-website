@@ -1,5 +1,5 @@
 import React from "react";
-import infromations from "../information.json";
+import infromations from "../informations.json";
 
 function About() {
   return (
