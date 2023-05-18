@@ -25,7 +25,7 @@ button {
 h2 {
   font-size: 1rem;
   letter-spacing: 1px;
-  color: #3A3D4E;
+  color: #3a3d4e;
   font-family: "Montserrat";
   text-align: left;
   display: flex;
@@ -205,6 +205,30 @@ h2 {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 74px;
+}
+
+.wave .shape-fill-first {
+  fill: #f9f9f9;
+}
+
+.wave .shape-fill-second {
+  fill: #FFF;
 }
 
 .skills {

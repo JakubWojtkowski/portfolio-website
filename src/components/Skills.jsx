@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import skills from "../skills.json";
+import Wave from "./Wave";
 
 function Skills() {
   function showSkills() {
@@ -26,14 +27,16 @@ function Skills() {
     <section id="skills">
       <div class="middle-container">
         <div className="skills">
+          <Wave styleClass="shape-fill-second"/>
+
           <h2>SKILLS</h2>
           <span style={{ paddingBottom: "20px" }}>
             - An overview of my Technical Skills -
           </span>
           <div className="skills-items">
+
             <div className="skill-item-card hidden">
               <h3>Front-end</h3>
-
               <div className="skill-item-card-box">
                 {skills.frontend.map((skill, index) => {
                   return (
@@ -46,6 +49,7 @@ function Skills() {
                 })}
               </div>
             </div>
+
             <div className="skill-item-card hidden">
               <h3>Back-end</h3>
               <div className="skill-item-card-box">

@@ -10,6 +10,7 @@ function Intro() {
   });
 
   return (
+    <section>
     <div className="intro">
       <div className="intro-img">
         <img
@@ -32,6 +33,7 @@ function Intro() {
         </button>
       </div>
     </div>
+    </section>
   );
 }
 
