@@ -3,7 +3,7 @@ import { useTypewriter } from "react-simple-typewriter";
 
 function Intro() {
   const [text] = useTypewriter({
-    words: ["Front-end Developer", "Back-end Developer", "Jakub Wojtkowski"],
+    words: ["Front-end Developer", "Fullstack Developer", "Jakub Wojtkowski"],
     typeSpeed: 100,
     deleteSpeed: 80,
     delaySpeed: 1000,
@@ -26,7 +26,7 @@ function Intro() {
                 <br /> Developer.
               </h1>
               <p>
-                Hello <span style={{ fontSize: "2rem" }}>👋🏼</span>. I'm{" "}
+                Hi <span style={{ fontSize: "2rem" }}>👋🏼</span>. I'm{" "}
                 <span className="intro-text-type">{text}</span>.<br />A
                 passionate about creating websites that make people happy and
                 catch the eye.
