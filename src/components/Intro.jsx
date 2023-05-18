@@ -10,29 +10,34 @@ function Intro() {
   });
 
   return (
-    <section>
-    <div className="intro">
-      <div className="intro-img">
-        <img
-          src="https://tse3.mm.bing.net/th?id=OIP.-P26n7StwhLOYZjEjB7xagAAAA&pid=Api"
-          alt="me"
-        ></img>
+    <section id="intro">
+      <div className="middle-container">
+        <div className="intro">
+          <div className="intro-items">
+            <div className="intro-img">
+              <img
+                src="https://tse3.mm.bing.net/th?id=OIP.-P26n7StwhLOYZjEjB7xagAAAA&pid=Api"
+                alt="me"
+              ></img>
+            </div>
+            <div className="intro-text">
+              <h1>
+                Web
+                <br /> Developer.
+              </h1>
+              <p>
+                Hello <span style={{ fontSize: "2rem" }}>👋🏼</span>. I'm{" "}
+                <span className="intro-text-type">{text}</span>.<br />A
+                passionate about creating websites that make people happy and
+                catch the eye.
+              </p>
+              <button className="intro-btn">
+                <i class="fa-solid fa-terminal"></i> View My Porfolio{" "}
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="intro-text">
-        <h1>
-          Web
-          <br /> Developer.
-        </h1>
-        <p>
-          Hello <span style={{ fontSize: "2rem" }}>👋🏼</span>. I'm{" "}
-          <span className="intro-text-type">{text}</span>.<br />A passionate
-          about creating websites that make people happy and catch the eye.
-        </p>
-        <button className="intro-btn">
-          <i class="fa-solid fa-terminal"></i> View My Porfolio{" "}
-        </button>
-      </div>
-    </div>
     </section>
   );
 }
