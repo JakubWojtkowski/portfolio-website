@@ -31,7 +31,7 @@ function Intro() {
                 passionate about creating websites that make people happy and
                 catch the eye.
               </p>
-              <button className="intro-btn">
+              <button className="btn">
                 <i class="fa-solid fa-terminal"></i> View My Porfolio{" "}
               </button>
             </div>

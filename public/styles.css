@@ -142,23 +142,24 @@ h2 {
   min-width: 45%;
 }
 
-.intro-text .intro-btn {
+.btn {
   margin: 0;
   text-align: center;
+  position: relative;
   color: #e3e2e2;
   background-color: #322e2e;
-  border: 2px solid #111;
+  border: 1px solid #111;
   border-radius: 28px;
   cursor: pointer;
   font-size: 12px;
-  height: 48px;
-  min-width: 35%;
+  height: 44px;
+  width: 160px;
   padding: 10px 20px;
-  box-shadow: #7f7b7b 5px 5px 5px;
+  box-shadow: #525151 5px 5px 5px;
 }
 
-.intro-btn:hover {
-  transition: 0.4s;
+.btn:hover {
+  transition: 0.3s;
   box-shadow: none;
 }
 
@@ -330,22 +331,44 @@ h2 {
 .contact {
   display: grid;
   place-items: center;
-  align-content: center;
   padding: 7% 15%;
   background-color: #f9f9f9;
 }
 
-.contact-form {
+.contact-main {
   display: grid;
-  grid-template-columns: 1 / span 2;
+  place-items: center;
 }
 
-.contact-main {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  width: 50rem;
   gap: 10px;
   background-color: #ece9e9;
+}
+
+.contact-form-left {
+  margin: 5%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.form-element {
+  width: 25rem;
+  border-radius: 4px;
+}
+
+.form textarea{
+  resize: none;
+  width: 100%;
+  min-height: 150px;
 }
 
 .footer {
