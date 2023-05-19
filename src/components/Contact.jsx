@@ -2,6 +2,16 @@ import React from "react";
 import Wave from "./Wave";
 
 function Contact() {
+  function addClass(event) {
+    const el = event.target;
+    el.classList.add("fa-solid");
+  }
+
+  function removeClass(event) {
+    const el = event.target;
+    el.classList.remove("fa-solid");
+  }
+
   return (
     <section id="contact">
       <div className="middle-container">
@@ -14,14 +24,15 @@ function Contact() {
             <div className="contact-main-left">
               <div className="contact-main-element">
                 <span>
-                  <i class="fa-regular fa-envelope icon"></i>
+                  <i
+                    onMouseOver={addClass}
+                    onMouseOut={removeClass}
+                    className="fa-regular fa-envelope icon"
+                  ></i>
                 </span>
                 <div className="contact-main-element-text">
                   <h3>Mail</h3>
-                  <a
-                    href="mailto:jvkub.wojtkowski@gmail.com"
-                    className="text-mail"
-                  >
+                  <a href="mailto:jvkub.wojtkowski@gmail.com">
                     jvkub.wojtkowski@gmail.com
                   </a>
                 </div>
@@ -29,7 +40,11 @@ function Contact() {
 
               <div className="contact-main-element">
                 <span>
-                  <i class="fa-solid fa-map"></i>
+                  <i
+                    onMouseOver={addClass}
+                    onMouseOut={removeClass}
+                    className="fa-regular fa-map icon"
+                  ></i>
                 </span>
                 <div className="contact-main-element-text">
                   <h3>Location</h3>
@@ -39,11 +54,17 @@ function Contact() {
 
               <div className="contact-main-element">
                 <span>
-                  <i class="fa-solid fa-file"></i>
+                  <i
+                    onMouseOver={addClass}
+                    onMouseOut={removeClass}
+                    className="fa-regular fa-file icon"
+                  ></i>
                 </span>
                 <div className="contact-main-element-text">
                   <h3>CV</h3>
-                  <button className="btn"><i class="fa-solid fa-file"></i> Download CV</button>
+                  <button className="btn">
+                    <i class="fa-solid fa-file"></i> Download CV
+                  </button>
                 </div>
               </div>
             </div>
