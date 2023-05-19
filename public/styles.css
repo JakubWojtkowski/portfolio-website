@@ -328,6 +328,8 @@ h2 {
   background-color: #2193b0;
 }
 
+/* Contact */
+
 .contact {
   display: grid;
   place-items: center;
@@ -337,39 +339,50 @@ h2 {
 
 .contact-main {
   display: grid;
-  place-items: center;
-}
-
-.contact-form {
-  display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
   place-items: center;
-  width: 50rem;
-  gap: 10px;
-  background-color: #ece9e9;
+  position: relative;
 }
 
-.contact-form-left {
-  margin: 5%;
-}
-
-.form {
+.contact-main-left {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin: 10px;
+  gap: 100px;
 }
 
-.form-element {
-  width: 25rem;
-  border-radius: 4px;
+.contact-main-element {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
 }
 
-.form textarea{
-  resize: none;
-  width: 100%;
-  min-height: 150px;
+.contact-main-element span {
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
 }
+
+.contact-main-element-text {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+}
+
+.text-mail {
+  color: #848181;
+}
+
+.text-mail:hover {
+  color: #d1c7c7;
+}
+
+.icon {
+  font-size: 1.3rem;
+}
+
+/* Footer */
 
 .footer {
   display: flex;
