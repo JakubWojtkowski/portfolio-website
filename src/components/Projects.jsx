@@ -7,7 +7,7 @@ function Projects() {
       <div className="middle-container">
         <Wave styleClass="shape-fill-first" />
         <div className="projects">
-          <h2>Projects</h2>
+          <h2>PROJECTS</h2>
           <div className="projects-item">
             <div className="project-item-main">
               <div className="project-item-main-text">

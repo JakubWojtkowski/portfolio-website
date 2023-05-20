@@ -26,9 +26,9 @@ function Skills() {
   return (
     <section id="skills">
       <div class="middle-container">
-        <div className="skills">
+        
           <Wave styleClass="shape-fill-second"/>
-
+          <div className="skills">
           <h2>SKILLS</h2>
           <span style={{ paddingBottom: "20px" }}>
             - An overview of my Technical Skills -
