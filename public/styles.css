@@ -115,10 +115,7 @@ h2 {
   background: transparent;
   display: none;
   border: 0;
-}
-
-.toggle-btn:hover {
-  color: #000;
+  z-index: 301;
 }
 
 /* dropdown-menu */
@@ -126,26 +123,38 @@ h2 {
 .dropdown-menu {
   display: none;
   position: absolute;
+  left: 0;
   right: 0;
-  top: 60px;
-  width: 20%;
+  top: 15vw;
+  width: 100vw;
   height: 0;
   overflow: hidden;
   transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .dropdown-menu.open {
-  height: 280px;
-  display: flex;
   align-items: center;
-  justify-content: center;
   background-color: #fff;
-  border-radius: 28px;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  z-index: 300;
 }
+
+.dropdown-menu.closed {
+  left: -100% !important;
+}
+
+/* zostaw */
 
 .dropdown-menu-links {
   display: flex;
-  width: 30px;
   flex-direction: column;
   position: relative;
   align-items: center;
@@ -175,6 +184,7 @@ h2 {
 .dropdown-menu-links li a:hover::after {
   width: 100%;
 }
+/* do tutaj */
 
 /* Nav media */
 
@@ -195,6 +205,8 @@ h2 {
 
   .dropdown-menu {
     display: block;
+    left: 0;
+    width: unset;
   }
 
   .nav-bar {
@@ -205,10 +217,6 @@ h2 {
 }
 
 @media screen and (max-width: 576px) {
-  .dropdown-menu {
-    left: 0;
-    width: unset;
-  }
 }
 
 /* Intro */

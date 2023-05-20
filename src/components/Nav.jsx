@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Nav() {
-  const [iconClass, setIconClass] = useState("fa-solid fa-bars");
+  const [iconClass, setIconClass] = useState("fa-solid fa-bars-staggered");
 
   return (
     <section id="home">
@@ -29,21 +29,34 @@ function Nav() {
           className="toggle-btn"
           onClick={(e) => {
             const dropDownMenu = document.querySelector(".dropdown-menu");
-
             dropDownMenu.classList.toggle("open");
 
             const isOpen = dropDownMenu.classList.contains("open");
 
             isOpen
               ? setIconClass("fa-solid fa-xmark")
-              : setIconClass("fa-solid fa-bars");
+              : setIconClass("fa-solid fa-bars-staggered");
           }}
         >
           <i class={iconClass}></i>
         </button>
 
         <div className="dropdown-menu">
-          <ul className="dropdown-menu-links">
+          <ul
+            className="dropdown-menu-links"
+            onClick={() => {
+              const dropDownMenu = document.querySelector(".dropdown-menu");
+              dropDownMenu.classList.toggle("open");
+              dropDownMenu.classList.toggle("closed");
+
+              const isClosed = dropDownMenu.classList.contains("closed");
+
+              isClosed
+                ? setIconClass("fa-solid fa-bars-staggered")
+                : setIconClass("fa-solid fa-xmark");
+              dropDownMenu.classList.toggle("closed");
+            }}
+          >
             <li>
               <a href="#home">Home</a>
             </li>
