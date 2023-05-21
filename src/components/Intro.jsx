@@ -26,8 +26,8 @@ function Intro() {
                 <br /> Developer.
               </h1>
               <p>
-                Hi <span style={{ fontSize: "2rem" }}>👋🏼</span>. I'm{" "}
-                <span className="intro-text-type">{text}</span>.<br />A
+                Hi <span style={{ fontSize: "1.5rem" }}>👋🏼</span>. I'm{" "}
+                <span className="intro-text-type">{text}</span>.<br /> A
                 passionate about creating websites that make people happy and
                 catch the eye.
               </p>
