@@ -15,7 +15,7 @@ function Contact() {
   return (
     <section id="contact">
       <div className="middle-container">
-        <Wave styleClass="shape-fill-second" />
+        <Wave waveClass="wave" styleClass="shape-fill-second" />
         <div className="contact">
           <h2>Contact me</h2>
           <h1 className="contact-heading">Let's work together.</h1>

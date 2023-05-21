@@ -6,7 +6,7 @@ function About() {
   return (
     <section id="about">
       <div class="middle-container">
-        <Wave styleClass="shape-fill-first" />
+      <Wave waveClass="wave" styleClass="shape-fill-first" />
         <div className="about">
           <div className="about-items">
             <h2>ABOUT ME</h2>

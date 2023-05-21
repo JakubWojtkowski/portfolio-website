@@ -5,7 +5,6 @@ function Projects() {
   return (
     <section id="projects">
       <div className="middle-container">
-        <Wave styleClass="shape-fill-first" />
         <div className="projects">
           <h2>PROJECTS</h2>
           <div className="projects-item">
@@ -18,12 +17,16 @@ function Projects() {
                 </a>
               </div>
               <div className="project-item-main-img">
-                <img src="https://images.pexels.com/photos/16849712/pexels-photo-16849712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="temp"/>
+                <img
+                  src="https://images.pexels.com/photos/16849712/pexels-photo-16849712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="temp"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
+      <Wave waveClass="wave" styleClass="shape-fill-first" />
     </section>
   );
 }

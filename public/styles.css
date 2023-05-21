@@ -32,6 +32,7 @@ button {
 h2 {
   font-size: 1rem;
   letter-spacing: 1px;
+  font-size: 80%;
   color: #3f3f3f;
   font-family: "Montserrat";
   text-align: left;
@@ -370,7 +371,7 @@ h2 {
   grid-row: 1 / span 2;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
   .about-img {
     grid-column: 1;
     grid-row: 2;
@@ -384,8 +385,22 @@ h2 {
 
 @media screen and (max-width: 600px) {
   .about-text,
-  .about-text-data {
+  .about-text-data,
+  .about-text-data-item {
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .about-text,
+  .about-text-data,
+  .about-text-data-item {
+    font-size: 0.7rem;
+    min-width: 60%;
+  }
+
+  .about-text-data-item span {
+    font-size: 0.6rem;
   }
 }
 
@@ -587,6 +602,10 @@ h2 {
   gap: 50px;
 }
 
+.contact-main-right img {
+  width: 100%;
+}
+
 .contact-main-element {
   display: flex;
   flex-direction: column;
@@ -615,6 +634,23 @@ h2 {
   color: #3a3d4e;
 }
 
+@media screen and (max-width: 992px) {
+  .contact-main-element {
+    font-size: 0.65rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-main {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .contact-main-right {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
 /* Footer */
 
 .footer {
@@ -653,7 +689,7 @@ h2 {
   scale: 1.15;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .footer-main {
     grid-template-columns: 1fr;
     font-size: 75%;
@@ -672,4 +708,11 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: rgb(0, 0, 0);
   outline: 1px solid slategrey;
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    font-size: 10px;
+    width: 120px;
+  }
 }
