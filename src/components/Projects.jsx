@@ -7,7 +7,7 @@ function Projects() {
       <div className="middle-container">
         <div className="projects">
           <h2>PROJECTS</h2>
-          <div className="projects-item">
+          <div className="projects-item hidden-y">
             <div className="project-item-element">
               <div className="project-item-main-img">
                 <img

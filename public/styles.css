@@ -180,6 +180,12 @@ h2 {
 
 /* Nav media */
 
+@media screen and (max-width: 1200px) {
+  .nav-bar-links li a {
+    font-size: 0.8rem;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .nav-bar-links {
     display: none;
@@ -223,7 +229,7 @@ h2 {
 }
 
 .intro-img img {
-  width: 32px;
+  /* width: 32px; */
   width: 100%;
 }
 
@@ -231,6 +237,7 @@ h2 {
   display: flex;
   flex-direction: row;
   place-items: center;
+  min-width: 800px;
   width: 100%;
   gap: 10px;
   margin: 0;
@@ -261,6 +268,13 @@ h2 {
 @media screen and (max-width: 992px) {
   .intro-items {
     flex-direction: column;
+    min-width: 200px;
+  }
+
+  .intro-img img {
+    width: 50%;
+    margin: auto;
+    display: flex;
   }
 
   .intro-text > p {
@@ -281,6 +295,10 @@ h2 {
   .intro-text-type {
     font-size: 110%;
   }
+
+  /* .intro-img img {
+    width: 225px;
+  } */
 }
 
 /* nav-Button */
@@ -425,6 +443,7 @@ h2 {
   left: 0;
   width: 100%;
   overflow: hidden;
+  z-index: 2;
   line-height: 0;
 }
 
@@ -451,6 +470,7 @@ h2 {
   align-content: center;
   grid-gap: 30px;
   padding: 7%;
+  position: relative;
   background-color: #f9f9f9;
 }
 
@@ -536,6 +556,7 @@ h2 {
   align-items: center;
   justify-content: center;
   padding: 7%;
+  position: relative;
   background-color: #fff;
 }
 
@@ -545,9 +566,9 @@ h2 {
   align-items: center;
   justify-content: center;
   gap: 50px;
+  position: relative;
   max-width: 800px;
   min-width: 1000px;
-  max-height: 600px;
   min-height: 300px;
   width: 100%;
   padding-top: 50px;
@@ -555,8 +576,7 @@ h2 {
 
 .project-item-element {
   max-width: 333px;
-  min-width: 150px;
-  max-height: 400px;
+  min-width: 250px;
   min-height: 150px;
   width: 100%;
   display: flex;
@@ -607,6 +627,12 @@ h2 {
     place-items: center;
     gap: 50px;
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 592px) {
+  .project-item-element {
+    max-width: 250px;
   }
 }
 
