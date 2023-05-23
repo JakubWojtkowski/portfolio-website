@@ -53,7 +53,7 @@
         {
             "id": 3,
             "profession": "backend",
-            "icon": "∞",
+            "icon": "fa-solid fa-infinity",
             "name": "Motoko",
             "level": "Basic"
         },

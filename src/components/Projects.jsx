@@ -1,5 +1,6 @@
 import React from "react";
 import Wave from "./Wave";
+import projects from "../projects.json";
 
 function Projects() {
   return (
@@ -7,52 +8,27 @@ function Projects() {
       <div className="middle-container">
         <div className="projects">
           <h2>PROJECTS</h2>
-          <div className="projects-item hidden-y">
-            <div className="project-item-element">
-              <div className="project-item-main-img">
-                <img
-                  src="https://images.pexels.com/photos/16849712/pexels-photo-16849712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                  alt="temp"
-                />
-              </div>
-              <div className="project-item-main-text">
-                <h3>This is project card</h3>
-                <a href="https://github.com/JakubWojtkowski">
-                  See code <i className="fa-brands fa-github"></i>
-                </a>
-              </div>
-            </div>
-
-            <div className="project-item-element">
-              <div className="project-item-main-img">
-                <img
-                  src="https://images.pexels.com/photos/16849712/pexels-photo-16849712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                  alt="temp"
-                />
-              </div>
-              <div className="project-item-main-text">
-                <h3>This is project card</h3>
-
-                <a href="https://github.com/JakubWojtkowski">
-                  See code <i className="fa-brands fa-github"></i>
-                </a>
-              </div>
-            </div>
-
-            <div className="project-item-element">
-              <div className="project-item-main-img">
-                <img
-                  src="https://images.pexels.com/photos/16849712/pexels-photo-16849712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                  alt="temp"
-                />
-              </div>
-              <div className="project-item-main-text">
-                <h3>This is project card</h3>
-                <a href="https://github.com/JakubWojtkowski">
-                  See code <i className="fa-brands fa-github"></i>
-                </a>
-              </div>
-            </div>
+          <span className="custom-span">
+            - Below are some of my bigger projects -
+          </span>
+          <div className="projects-item">
+            {projects.map((project) => {
+              return (
+                <div className="project-item-element">
+                  <div className="project-item-main-img">
+                    <img src={project.image} alt="project view" />
+                  </div>
+                  <div className="project-item-main-text">
+                    <h4>{project.name}</h4>
+                    <p>{project.about}</p>
+                    <a href={project.link} rel="noreferrer" target="_blank">
+                      <i className="fa-brands fa-github icon"></i>
+                    </a>
+                    <span>{project.date}</span>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>

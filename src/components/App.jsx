@@ -7,6 +7,7 @@ import Intro from "./Intro";
 import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Carousel from "./Carousel";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        {/* <Carousel /> */}
         <Contact />
       </Fade>
       <Footer />

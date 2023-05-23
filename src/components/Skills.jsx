@@ -26,10 +26,10 @@ function Skills() {
   return (
     <section id="skills">
       <div class="middle-container">
-      <Wave waveClass="wave" styleClass="shape-fill-second" />
+        <Wave waveClass="wave" styleClass="shape-fill-second" />
         <div className="skills">
           <h2>SKILLS</h2>
-          <span style={{ paddingBottom: "20px" }}>
+          <span className="custom-span">
             - An overview of my Technical Skills -
           </span>
           <div className="skills-items">

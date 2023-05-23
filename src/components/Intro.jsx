@@ -1,6 +1,5 @@
 import React from "react";
 import { useTypewriter } from "react-simple-typewriter";
-import Wave from "./Wave";
 
 function Intro() {
   const [text] = useTypewriter({
