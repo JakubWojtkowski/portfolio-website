@@ -541,6 +541,13 @@ h2 {
     font-size: 0.7rem;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .skill-item-card {
+    min-width: 250px;
+    min-height: 250px;
+  }
+}
 /* #9baecc */
 
 /* Projects */
