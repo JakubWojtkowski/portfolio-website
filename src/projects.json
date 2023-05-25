@@ -11,6 +11,7 @@
         "image": "./images/opend.png",
         "name": "OpenD",
         "about": "Lorem ipsum...",
+        "link": "https://github.com/JakubWojtkowski",
         "date": "May 02, 2023"
     },
     {
@@ -18,6 +19,7 @@
         "image": "./images/warehouse-app.png",
         "name": "WarehouseApp",
         "about": "Lorem ipsum...",
+        "link": "https://github.com/JakubWojtkowski",
         "date": "January 13, 2023"
     },
     {
@@ -25,6 +27,7 @@
         "image": "./images/blog.png",
         "name": "Blog-Website",
         "about": "Lorem ipsum...",
+        "link": "https://github.com/JakubWojtkowski",
         "date": "April 06, 2023"
     },
     {
@@ -32,6 +35,7 @@
         "image": "./images/todolist-v1.png",
         "name": "ToDoList-v1",
         "about": "Lorem ipsum...",
+        "link": "https://github.com/JakubWojtkowski",
         "date": "March 30, 2023"
     },
     {
@@ -39,6 +43,7 @@
         "image": "./images/secrets.png",
         "name": "SecretsPage-auth",
         "about": "Lorem ipsum...",
+        "link": "https://github.com/JakubWojtkowski",
         "date": "March 26, 2023"
     }
 ]
