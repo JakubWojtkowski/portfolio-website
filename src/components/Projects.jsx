@@ -12,7 +12,7 @@ function Projects() {
           <span className="custom-span">
             - Below are some of my bigger projects -
           </span>
-          <ProjectSlider projects={projects}/>
+          <ProjectSlider projects={projects} />
         </div>
       </div>
       <Wave waveClass="wave" styleClass="shape-fill-first" />

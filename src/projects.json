@@ -4,7 +4,7 @@
         "name": "Keeper-app_v2",
         "about": "Lorem ipsum...",
         "link": "https://github.com/JakubWojtkowski",
-        "date": "April 01, 2023"
+        "date": "April, 2023"
     },
     {
         "id": 2,
@@ -12,7 +12,7 @@
         "name": "OpenD",
         "about": "Lorem ipsum...",
         "link": "https://github.com/JakubWojtkowski",
-        "date": "May 02, 2023"
+        "date": "May, 2023"
     },
     {
         "id": 3,
@@ -20,7 +20,7 @@
         "name": "WarehouseApp",
         "about": "Lorem ipsum...",
         "link": "https://github.com/JakubWojtkowski",
-        "date": "January 13, 2023"
+        "date": "January, 2023"
     },
     {
         "id": 4,
@@ -28,7 +28,7 @@
         "name": "Blog-Website",
         "about": "Lorem ipsum...",
         "link": "https://github.com/JakubWojtkowski",
-        "date": "April 06, 2023"
+        "date": "April, 2023"
     },
     {
         "id": 5,
@@ -36,7 +36,7 @@
         "name": "ToDoList-v1",
         "about": "Lorem ipsum...",
         "link": "https://github.com/JakubWojtkowski",
-        "date": "March 30, 2023"
+        "date": "March, 2023"
     },
     {
         "id": 6,
@@ -44,6 +44,6 @@
         "name": "SecretsPage-auth",
         "about": "Lorem ipsum...",
         "link": "https://github.com/JakubWojtkowski",
-        "date": "March 26, 2023"
+        "date": "March, 2023"
     }
 ]

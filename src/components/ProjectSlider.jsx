@@ -15,6 +15,10 @@ function ProjectSlider({ projects }) {
     setCurrentIndex(newIndex);
   };
 
+  const goToSlide = (index) => {
+    setCurrentIndex(index);
+  };
+
   return (
     <div className="projects-main">
       <div className="projects-slide">
@@ -37,6 +41,19 @@ function ProjectSlider({ projects }) {
             {projects[currentIndex].date}
           </span>
         </div>
+      </div>
+      <div className="project-slide-dots">
+        {projects.map((project, index) => {
+          return (
+            <div
+              className="project-slide-dot"
+              key={index}
+              onClick={() => goToSlide(index)}
+            >
+              •
+            </div>
+          );
+        })}
       </div>
     </div>
   );
