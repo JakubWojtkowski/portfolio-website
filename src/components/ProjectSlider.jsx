@@ -20,9 +20,9 @@ function ProjectSlider({ projects }) {
   };
 
   return (
-    <div className="projects-main">
-      <div className="projects-slide">
-        <div className="projects-slide-img">
+    <div>
+      <div className="projects-main">
+        <div className="projects-main-img">
           <img src={projects[currentIndex].image} alt="project-card" />
           <div className="left-arrow" onClick={goToPrevious}>
             <i class="fa-solid fa-arrow-left"></i>
@@ -31,22 +31,26 @@ function ProjectSlider({ projects }) {
             <i class="fa-solid fa-arrow-right"></i>
           </div>
         </div>
-        <div className="projects-slide-text">
+        <div className="projects-main-text">
           <h3>{projects[currentIndex].name}</h3>
           <p>{projects[currentIndex].about}</p>
           <span>
-            <a href={projects[currentIndex].link}>
-              <i class="fa-brands fa-github"></i>
+            <a
+              href={projects[currentIndex].link}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class={projects[currentIndex].icon}></i>
             </a>{" "}
             {projects[currentIndex].date}
           </span>
         </div>
       </div>
-      <div className="project-slide-dots">
+      <div className="projects-main-dots">
         {projects.map((project, index) => {
           return (
             <div
-              className="project-slide-dot"
+              className="projects-main-dot"
               key={index}
               onClick={() => goToSlide(index)}
             >
