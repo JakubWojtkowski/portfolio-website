@@ -32,7 +32,7 @@ function Intro() {
                 catch the eye.
               </p>
               <button className="btn">
-                <i class="fa-solid fa-terminal"></i> View My Porfolio{" "}
+                <i class="fa-solid fa-terminal"></i>View My Porfolio
               </button>
             </div>
           </div>

@@ -19,7 +19,7 @@ a:hover {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 3.75rem;
   font-family: "Montserrat";
   text-align: left;
   color: #303030;
@@ -49,7 +49,7 @@ h2 {
 .custom-span {
   color: #848181;
   font-size: 0.7rem;
-  padding-bottom: 7%;
+  padding-bottom: 5%;
 }
 
 .scroll {
@@ -203,8 +203,8 @@ h2 {
     padding: 0;
   }
 
-  .logo {
-    font-size: 1.5rem;
+  .logo img{
+    width: 30%;
   }
 
   .dropdown-menu {
@@ -224,7 +224,7 @@ h2 {
 
 .intro {
   display: grid;
-  gap: 5rem;
+  gap: 3rem;
   align-items: center;
   justify-content: center;
   background-color: #f9f9f9;
@@ -244,14 +244,15 @@ h2 {
   place-items: center;
   min-width: 800px;
   width: 100%;
-  gap: 50px;
-  margin: 0;
+  gap: 40px;
+  margin: 0 auto;
 }
 
 .intro-text {
   display: flex;
   flex-direction: column;
   place-items: start;
+  width: 300px;
 }
 
 .intro-text-type {
@@ -266,8 +267,6 @@ h2 {
   text-align: justify;
   line-height: 2;
   color: #5e5c5c;
-  max-width: 68.5%;
-  min-width: 30%;
 }
 
 @media screen and (max-width: 992px) {
@@ -284,6 +283,7 @@ h2 {
 
   .intro-text {
     place-items: center;
+    width: 55%;
   }
 
   .intro-text h1 {
@@ -291,7 +291,6 @@ h2 {
   }
 
   .intro-text > p {
-    max-width: 50%;
     font-size: 1rem;
   }
 
@@ -311,9 +310,6 @@ h2 {
 }
 
 @media screen and (max-width: 520px) {
-  .intro-text > p {
-    min-width: 67.5%;
-  }
 }
 
 /* nav-Button */
@@ -340,12 +336,9 @@ h2 {
 }
 
 @media screen and (max-width: 600px) {
-  h1 {
-    font-size: 3rem;
-  }
-
   .intro-text {
     font-size: 0.8rem;
+    width: 200px;
   }
 
   .btn {
@@ -789,6 +782,10 @@ body::-webkit-scrollbar-thumb {
   .btn {
     font-size: 10px;
     width: 120px;
+  }
+
+  h1 {
+    font-size: 3em;
   }
 
   h2,
