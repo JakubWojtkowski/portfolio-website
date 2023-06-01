@@ -1,5 +1,6 @@
 import React from "react";
 import Wave from "./Wave";
+import ContactModel from "./ContactModel";
 
 function Contact() {
   function addClass(event) {
@@ -70,11 +71,7 @@ function Contact() {
             </div>
 
             <div className="contact-main-right">
-              <img
-                style={{ width: "100%" }}
-                src="https://www.dreamztech.com.my/images/1_Dreamztech/career/programmers.png"
-                alt="temp"
-              />
+              <ContactModel />
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ function Intro() {
           <div className="intro-items">
             <div className="intro-img">
               <img
-                src="https://tse3.mm.bing.net/th?id=OIP.-P26n7StwhLOYZjEjB7xagAAAA&pid=Api"
+                src="./images/me.jpeg"
                 alt="me"
               ></img>
             </div>

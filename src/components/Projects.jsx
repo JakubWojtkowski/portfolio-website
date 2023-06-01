@@ -10,7 +10,7 @@ function Projects() {
         <div className="projects">
           <h2>PROJECTS</h2>
           <span className="custom-span">
-            - Below are some of my bigger projects -
+            - Some of my bigger projects -
           </span>
           <ProjectSlider projects={projects} />
         </div>

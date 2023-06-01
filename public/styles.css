@@ -214,7 +214,7 @@ span {
     padding: 0;
   }
 
-  .logo img{
+  .logo img {
     width: 30%;
   }
 
@@ -245,17 +245,25 @@ span {
   margin: 10vh auto 0 auto;
 }
 
+.intro-img {
+  display: flex;
+  flex: 0 1 300px;
+}
+
 .intro-img img {
   width: 100%;
+  border-radius: 25%;
+  flex: 0 1 300px;
 }
 
 .intro-items {
   display: flex;
   flex-direction: row;
-  place-items: center;
+  align-items: center;
+  justify-content: center;
   min-width: 800px;
   width: 100%;
-  gap: 40px;
+  gap: 50px;
   margin: 0 auto;
 }
 
@@ -263,7 +271,7 @@ span {
   display: flex;
   flex-direction: column;
   place-items: start;
-  width: 300px;
+  flex: 0 0 300px;
 }
 
 .intro-text-type {
@@ -318,9 +326,6 @@ span {
   .intro-text-type {
     font-size: 110%;
   }
-}
-
-@media screen and (max-width: 520px) {
 }
 
 /* nav-Button */
@@ -680,11 +685,18 @@ span {
 .contact-main-left {
   display: flex;
   flex-direction: column;
+  width: 300px;
   gap: 50px;
+  z-index: 200;
 }
 
-.contact-main-right img {
-  width: 100%;
+.contact-main-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  min-width: 200px;
+  height: 250px;
 }
 
 .contact-main-element {
@@ -747,6 +759,7 @@ span {
   font-size: 0.8rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
   overflow-x: hidden;
+  clear: both;
 }
 
 .footer-main {
@@ -766,6 +779,10 @@ span {
 .footer-i {
   color: #f9f9f9;
   font-size: 1.1rem;
+}
+
+.footer h3 {
+  font-size: 0.8rem;
 }
 
 .footer-i:hover {
