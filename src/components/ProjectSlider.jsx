@@ -40,7 +40,10 @@ function ProjectSlider({ projects }) {
               target="_blank"
               rel="noreferrer"
             >
-              <i class={projects[currentIndex].icon}></i>
+              <i
+                style={{ fontSize: "1.5rem" }}
+                className={projects[currentIndex].icon}
+              ></i>
             </a>{" "}
             {projects[currentIndex].date}
           </span>

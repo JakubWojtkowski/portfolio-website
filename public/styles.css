@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-  color: #aba7a7;
+  color: #303030;
 }
 
 h1 {
@@ -40,6 +40,17 @@ h2 {
   align-items: center;
 }
 
+h3 {
+  padding-top: 10px;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+span {
+  color: #848181;
+  font-size: 0.8rem;
+}
+
 .middle-container {
   position: relative;
   margin: 0 auto;
@@ -49,7 +60,7 @@ h2 {
 .custom-span {
   color: #848181;
   font-size: 0.7rem;
-  padding-bottom: 5%;
+  padding-bottom: 4%;
 }
 
 .scroll {
@@ -517,7 +528,12 @@ h2 {
 .skill-item-card-box-element {
   display: flex;
   flex-direction: column;
-  padding-bottom: 2rem;
+  place-items: center;
+  padding-bottom: 1.5rem;
+}
+
+.skill-item-card-box-element img {
+  width: 40px;
 }
 
 .skill-item-card-box-element > i {
@@ -622,7 +638,7 @@ h2 {
   transform: translate(0, -50%);
   right: 32px;
   font-size: 38px;
-  color: #c7cec7;
+  color: #d3ded3;
   z-index: 1;
   cursor: pointer;
 }
@@ -754,7 +770,7 @@ h2 {
 
 .footer-i:hover {
   color: #8c8c8f;
-  transition: 0.2s;
+  transition: 0.3s;
   scale: 1.15;
 }
 
@@ -792,5 +808,9 @@ body::-webkit-scrollbar-thumb {
   h2,
   .custom-span {
     font-size: 60%;
+  }
+
+  .custom-span {
+    padding-bottom: 6%;
   }
 }

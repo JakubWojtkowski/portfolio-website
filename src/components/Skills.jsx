@@ -1,8 +1,21 @@
 import React, { useEffect } from "react";
+import { Tilt } from "react-tilt";
 import skills from "../skills.json";
 import Wave from "./Wave";
 
 function Skills() {
+  const defaultOptions = {
+    reverse: false, // reverse the tilt direction
+    max: 35, // max tilt rotation (degrees)
+    perspective: 1000, // Transform perspective, the lower the more extreme the tilt gets.
+    scale: 1.1, // 2 = 200%, 1.5 = 150%, etc..
+    speed: 1000, // Speed of the enter/exit transition
+    transition: true, // Set a transition on enter/exit.
+    axis: null, // What axis should be disabled. Can be X or Y.
+    reset: true, // If the tilt effect has to be reset on exit.
+    easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
+  };
+
   function showSkills() {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -33,35 +46,53 @@ function Skills() {
             - An overview of my Technical Skills -
           </span>
           <div className="skills-items">
-            <div className="skill-item-card hidden">
-              <h3>Front-end</h3>
-              <div className="skill-item-card-box">
-                {skills.frontend.map((skill, index) => {
-                  return (
-                    <div className="skill-item-card-box-element" key={skill.id}>
-                      <i className={skill.icon}></i>
-                      <p>{skill.name}</p>
-                      <span>{skill.level}</span>
-                    </div>
-                  );
-                })}
+            <Tilt options={defaultOptions}>
+              <div className="skill-item-card hidden">
+                <h3>Front-end</h3>
+                <div className="skill-item-card-box">
+                  {skills.frontend.map((skill, index) => {
+                    return (
+                      <div
+                        className="skill-item-card-box-element"
+                        key={skill.id}
+                      >
+                        <img
+                          className="icon-img"
+                          src={skill.icon}
+                          alt="tech stack logo"
+                        />
+                        <p>{skill.name}</p>
+                        <span>- {skill.level} -</span>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
+            </Tilt>
 
-            <div className="skill-item-card hidden">
-              <h3>Back-end</h3>
-              <div className="skill-item-card-box">
-                {skills.backend.map((skill) => {
-                  return (
-                    <div className="skill-item-card-box-element" key={skill.id}>
-                      <i className={skill.icon}></i>
-                      <p>{skill.name}</p>
-                      <span>{skill.level}</span>
-                    </div>
-                  );
-                })}
+            <Tilt options={defaultOptions}>
+              <div className="skill-item-card hidden">
+                <h3>Back-end</h3>
+                <div className="skill-item-card-box">
+                  {skills.backend.map((skill) => {
+                    return (
+                      <div
+                        className="skill-item-card-box-element"
+                        key={skill.id}
+                      >
+                        <img
+                          className="icon-img"
+                          src={skill.icon}
+                          alt="tech stack logo"
+                        />
+                        <p>{skill.name}</p>
+                        <span>- {skill.level} -</span>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
+            </Tilt>
           </div>
         </div>
       </div>

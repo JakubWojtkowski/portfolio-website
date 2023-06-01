@@ -1,37 +1,37 @@
 {
     "frontend": [{
             "id": 1,
-            "icon": "fa-brands fa-angular",
+            "icon": "./images/logos/angular-logo.png",
             "name": "Angular.js",
             "level": "Basic"
         },
         {
             "id": 2,
-            "icon": "fa-brands fa-react",
+            "icon": "./images/logos/react-logo.png",
             "name": "React.js",
             "level": "Intermediate"
         },
         {
             "id": 3,
-            "icon": "fa-brands fa-html5",
+            "icon": "./images/logos/HTML5-logo.png",
             "name": "HTML",
             "level": "Intermediate"
         },
         {
             "id": 4,
-            "icon": "fa-brands fa-css3-alt",
+            "icon": "./images/logos/css3-logo.png",
             "name": "CSS",
             "level": "Intermediate"
         },
         {
             "id": 5,
-            "icon": "fa-brands fa-bootstrap",
+            "icon": "./images/logos/bootstrap-logo.png",
             "name": "Bootstrap",
             "level": "Basic"
         },
         {
             "id": 6,
-            "icon": "fa-brands fa-git-alt",
+            "icon": "./images/logos/git-logo.png",
             "name": "Git",
             "level": "Basic"
         }
@@ -39,42 +39,42 @@
     "backend": [{
             "id": 1,
             "profession": "backend",
-            "icon": "fa-brands fa-node",
+            "icon": "./images/logos/nodejs-logo.png",
             "name": "Node.js",
             "level": "Intermediate"
         },
         {
             "id": 2,
             "profession": "backend",
-            "icon": "fa-brands fa-java",
+            "icon": "./images/logos/java-logo.png",
             "name": "Java",
             "level": "Basic"
         },
         {
             "id": 3,
             "profession": "backend",
-            "icon": "fa-solid fa-infinity",
+            "icon": "./images/logos/motoko-logo.png",
             "name": "Motoko",
             "level": "Basic"
         },
         {
             "id": 4,
             "profession": "backend",
-            "icon": "fa-brands fa-js",
+            "icon": "./images/logos/javascript-logo.png",
             "name": "Javascript",
             "level": "Intermediate"
         },
         {
             "id": 5,
             "profession": "backend",
-            "icon": "fa-solid fa-database",
+            "icon": "./images/logos/sql-logo.png",
             "name": "SQL",
             "level": "Intermediate"
         },
         {
             "id": 6,
             "profession": "backend",
-            "icon": "fa-solid fa-database",
+            "icon": "./images/logos/mongo-logo.png",
             "name": "MongoDB",
             "level": "Basic"
         }
