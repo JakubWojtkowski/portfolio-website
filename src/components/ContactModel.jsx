@@ -17,7 +17,8 @@ function ContactModel() {
     camera.position.z = 96;
 
     const canvas = document.getElementById("canvas");
-    canvas.width = 256; canvas.height = 64;
+    canvas.width = 256;
+    canvas.height = 64;
     const renderer = new THREE.WebGLRenderer({
       canvas,
       antialias: true,
@@ -38,7 +39,7 @@ function ContactModel() {
     const boxMesh = new THREE.Mesh(boxGeometry, boxMaterial);
     scene.add(boxMesh);
 
-    renderer.setClearColor( 0xffffff, 0 ); // second param is opacity, 0 => transparent
+    renderer.setClearColor(0xffffff, 0); // second param is opacity, 0 => transparent
 
     // resize functionality
     window.addEventListener("resize", () => {
@@ -54,10 +55,11 @@ function ContactModel() {
     controls.enableZoom = false;
     controls.autoRotate = true;
 
-    const animate = () => {
-      //   boxMesh.rotation.x += 0.01;
-      //   boxMesh.rotation.y += 0.01;
+    controls.addEventListener('onMouseMove', function(){
+      controls.autoRotate = false;
+    });
 
+    const animate = () => {
       controls.update();
       renderer.render(scene, camera);
       window.requestAnimationFrame(animate);

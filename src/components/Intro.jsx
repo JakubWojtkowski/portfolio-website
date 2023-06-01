@@ -3,10 +3,15 @@ import { useTypewriter } from "react-simple-typewriter";
 
 function Intro() {
   const [text] = useTypewriter({
-    words: ["Front-end Developer", "Fullstack Developer", "Jakub Wojtkowski"],
+    words: [
+      "Book Reader...",
+      "Front-end Developer...",
+      "Fullstack Developer...",
+      "Jakub Wojtkowski.",
+    ],
     typeSpeed: 100,
-    deleteSpeed: 80,
-    delaySpeed: 1000,
+    deleteSpeed: 60,
+    delaySpeed: 500,
   });
 
   return (
@@ -15,21 +20,18 @@ function Intro() {
         <div className="intro">
           <div className="intro-items">
             <div className="intro-img">
-              <img
-                src="./images/me.jpeg"
-                alt="me"
-              ></img>
+              <img src="./images/me.jpeg" alt="me"></img>
             </div>
             <div className="intro-text">
-              <h1>
+              <h1 className="intro-text-heading">
                 Web
                 <br /> Developer.
               </h1>
+              <span className="intro-text-type">- {text}</span>
               <p>
-                Hi <span style={{ fontSize: "1.5rem" }}>👋🏼</span>. I'm{" "}
-                <span className="intro-text-type">{text}</span>.<br /> A
-                passionate about creating websites that make people happy and
-                catch the eye.
+                Hello <span style={{ fontSize: "1.25rem" }}>👋🏼 </span>
+                I'm a passionate about creating awesome websites that make
+                people happy and catch the eye.
               </p>
               <button className="btn">
                 <i class="fa-solid fa-terminal"></i>View My Porfolio

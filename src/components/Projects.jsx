@@ -9,7 +9,7 @@ function Projects() {
       <div className="middle-container">
         <div className="projects">
           <h2>PROJECTS</h2>
-          <span className="custom-span">
+          <span className="custom-span" style={{ paddingBottom: "2%" }}>
             - Some of my bigger projects -
           </span>
           <ProjectSlider projects={projects} />

@@ -2,7 +2,6 @@
         "id": 1,
         "image": "./images/keeper-third.png",
         "name": "Keeper-app_v2",
-        "about": "Lorem ipsum...",
         "link": "https://github.com/JakubWojtkowski/Keeper-app_v2",
         "icon": "fa-brands fa-github",
         "date": "April, 2023"
@@ -11,7 +10,6 @@
         "id": 2,
         "image": "./images/opend.png",
         "name": "OpenD",
-        "about": "Lorem ipsum...",
         "link": "https://github.com/JakubWojtkowski/opend",
         "icon": "fa-brands fa-github",
         "date": "May, 2023"
@@ -20,7 +18,6 @@
         "id": 3,
         "image": "./images/warehouse-app.png",
         "name": "WarehouseApp",
-        "about": "Lorem ipsum...",
         "link": "https://github.com/JakubWojtkowski/WarehouseApp",
         "icon": "fa-brands fa-github",
         "date": "January, 2023"
@@ -29,7 +26,6 @@
         "id": 4,
         "image": "./images/blog.png",
         "name": "Blog-Website",
-        "about": "Lorem ipsum...",
         "link": "https://github.com/JakubWojtkowski/Blog-Website",
         "icon": "fa-brands fa-github",
         "date": "April, 2023"
@@ -38,7 +34,6 @@
         "id": 5,
         "image": "./images/todolist-v1.png",
         "name": "ToDoList-v1",
-        "about": "Lorem ipsum...",
         "link": "https://github.com/JakubWojtkowski/toDoList-v1",
         "icon": "fa-brands fa-github",
         "date": "March, 2023"
@@ -47,7 +42,6 @@
         "id": 6,
         "image": "./images/secrets.png",
         "name": "SecretsPage-auth",
-        "about": "Lorem ipsum...",
         "link": "https://github.com/JakubWojtkowski/SecretsPage-auth",
         "icon": "fa-brands fa-github",
         "date": "March, 2023"

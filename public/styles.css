@@ -19,20 +19,15 @@ a:hover {
 }
 
 h1 {
-  font-size: 3.75rem;
+  font-size: 3.5rem;
   font-family: "Montserrat";
   text-align: left;
   color: #303030;
 }
 
-button {
-  font-family: "Montserrat";
-}
-
 h2 {
-  font-size: 1rem;
   letter-spacing: 1px;
-  font-size: 80%;
+  font-size: 90%;
   color: #3f3f3f;
   font-family: "Montserrat";
   text-align: left;
@@ -42,7 +37,7 @@ h2 {
 
 h3 {
   padding-top: 10px;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   letter-spacing: 0.5px;
 }
 
@@ -60,12 +55,33 @@ span {
 .custom-span {
   color: #848181;
   font-size: 0.7rem;
-  padding-bottom: 4%;
 }
 
 .scroll {
   backdrop-filter: blur(30px);
   opacity: 0.3;
+}
+
+.btn {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  color: #e3e2e2;
+  background-color: #303030;
+  border: 1px solid #111;
+  border-radius: 28px;
+  cursor: pointer;
+  font-size: 12px;
+  height: 44px;
+  width: 160px;
+  padding: 10px 20px;
+  box-shadow: #3a3939 3px 3px 3px;
+  font-family: "Montserrat";
+}
+
+.btn:hover {
+  transition: 0.3s;
+  box-shadow: none;
 }
 
 /* Nav */
@@ -267,6 +283,11 @@ span {
   margin: 0 auto;
 }
 
+.intro-text-heading {
+  font-size: 4.5rem;
+  margin: 35px 0;
+}
+
 .intro-text {
   display: flex;
   flex-direction: column;
@@ -275,9 +296,9 @@ span {
 }
 
 .intro-text-type {
-  font-weight: 900;
   font-size: 1.2rem;
-  background: #465cab;
+  font-family: "Ubuntu";
+  background: #303030;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -329,27 +350,6 @@ span {
 }
 
 /* nav-Button */
-
-.btn {
-  margin: 0;
-  text-align: center;
-  position: relative;
-  color: #e3e2e2;
-  background-color: #322e2e;
-  border: 1px solid #111;
-  border-radius: 28px;
-  cursor: pointer;
-  font-size: 12px;
-  height: 44px;
-  width: 160px;
-  padding: 10px 20px;
-  box-shadow: #525151 5px 5px 5px;
-}
-
-.btn:hover {
-  transition: 0.3s;
-  box-shadow: none;
-}
 
 @media screen and (max-width: 600px) {
   .intro-text {
@@ -414,7 +414,7 @@ span {
   grid-row: 1 / span 2;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .about-img {
     grid-column: 1;
     grid-row: 2;
@@ -555,6 +555,10 @@ span {
   .skills-items {
     flex-direction: column;
   }
+
+  .skill-item-card-box-element img {
+    width: 30px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -569,6 +573,10 @@ span {
   .skill-item-card {
     min-width: 250px;
     min-height: 250px;
+  }
+
+  .skill-item-card-box-element img {
+    width: 20px;
   }
 }
 /* #9baecc */
@@ -662,7 +670,7 @@ span {
 }
 
 .projects-main-dot:hover {
-  color: #8c8c8f;
+  color: #303030;
 }
 
 /* Contact */
@@ -678,14 +686,14 @@ span {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-  place-items: center;
+  align-items: center;
+  justify-content: center;
   position: relative;
 }
 
 .contact-main-left {
   display: flex;
   flex-direction: column;
-  width: 300px;
   gap: 50px;
   z-index: 200;
 }
@@ -781,10 +789,6 @@ span {
   font-size: 1.1rem;
 }
 
-.footer h3 {
-  font-size: 0.8rem;
-}
-
 .footer-i:hover {
   color: #8c8c8f;
   transition: 0.3s;
@@ -794,7 +798,11 @@ span {
 @media screen and (max-width: 768px) {
   .footer-main {
     grid-template-columns: 1fr;
-    font-size: 75%;
+    font-size: 70%;
+  }
+
+  .footer h3 {
+    font-size: 0.65rem;
   }
 }
 
@@ -819,12 +827,16 @@ body::-webkit-scrollbar-thumb {
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 2.75em;
+  }
+
+  .intro-text-heading {
+    font-size: 3rem;
   }
 
   h2,
   .custom-span {
-    font-size: 60%;
+    font-size: 65%;
   }
 
   .custom-span {

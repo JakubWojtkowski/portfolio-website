@@ -33,7 +33,6 @@ function ProjectSlider({ projects }) {
         </div>
         <div className="projects-main-text">
           <h3>{projects[currentIndex].name}</h3>
-          <p>{projects[currentIndex].about}</p>
           <span>
             <a
               href={projects[currentIndex].link}
