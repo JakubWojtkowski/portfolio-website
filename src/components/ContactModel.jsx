@@ -14,11 +14,9 @@ function ContactModel() {
       1000
     );
 
-    camera.position.z = 96;
+    camera.position.z = 69;
 
-    const canvas = document.getElementById("canvas");
-    canvas.width = 256;
-    canvas.height = 64;
+    const canvas = document.getElementById("bg");
     const renderer = new THREE.WebGLRenderer({
       canvas,
       antialias: true,
@@ -55,7 +53,7 @@ function ContactModel() {
     controls.enableZoom = false;
     controls.autoRotate = true;
 
-    controls.addEventListener('onMouseMove', function(){
+    controls.addEventListener("onMouseMove", function () {
       controls.autoRotate = false;
     });
 
@@ -67,11 +65,7 @@ function ContactModel() {
     animate();
   }, []);
 
-  return (
-    <div className="contact-model">
-      <canvas id="canvas"></canvas>
-    </div>
-  );
+  return <canvas style={{}} id="bg"></canvas>;
 }
 
 export default ContactModel;

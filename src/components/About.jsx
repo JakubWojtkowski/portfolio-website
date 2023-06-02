@@ -10,11 +10,13 @@ function About() {
         <div className="about">
           <div className="about-items">
             <h2>ABOUT ME</h2>
-            <img
-              src="https://media.giphy.com/media/8ah1D978pNLT8bUC5s/giphy.gif"
-              alt="about me img"
-              className="about-img"
-            />
+            <div className="about-img-parent">
+              <img
+                src="./images/me.jpeg"
+                alt="about me img"
+                className="about-img"
+              />
+            </div>
             <p className="about-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed
