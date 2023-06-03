@@ -9,7 +9,7 @@ function Intro() {
       "Fullstack Developer...",
       "Jakub Wojtkowski.",
     ],
-    typeSpeed: 100,
+    typeSpeed: 80,
     deleteSpeed: 60,
     delaySpeed: 500,
   });
@@ -20,7 +20,7 @@ function Intro() {
         <div className="intro">
           <div className="intro-items">
             <div className="intro-img">
-              <img src="./images/me.jpeg" alt="me"></img>
+              {/* <img src="./images/me.jpeg" alt="me"></img> */}
             </div>
             <div className="intro-text">
               <h1 className="intro-text-heading">
