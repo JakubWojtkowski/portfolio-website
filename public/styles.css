@@ -105,7 +105,7 @@ span {
 
 .logo {
   font-size: 2rem;
-  font-family: "lobster";
+  font-family: "Montserrat";
   font-weight: lighter;
   padding: 0% 6% 0% 7%;
   color: #303030;
@@ -307,6 +307,8 @@ span {
   text-align: justify;
   line-height: 2;
   color: #5e5c5c;
+  font-family: "Montserrat";
+  font-weight: lighter;
 }
 
 @media screen and (max-width: 992px) {
@@ -384,7 +386,7 @@ span {
 .about-text {
   line-height: 2;
   text-align: justify;
-  color: #303030;
+  color: #5e5c5c;
 }
 
 .about-text-data {
