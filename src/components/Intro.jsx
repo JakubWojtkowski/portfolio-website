@@ -20,7 +20,6 @@ function Intro() {
         <div className="intro">
           <div className="intro-items">
             <div className="intro-img">
-              {/* <img src="./images/me.jpeg" alt="me"></img> */}
             </div>
             <div className="intro-text">
               <h1 className="intro-text-heading">
