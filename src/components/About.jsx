@@ -15,11 +15,11 @@ function About() {
             </div>
 
             <div className="about-img-parent">
-              <img
+              {/* <img
                 src="./images/me.jpeg"
                 alt="about me img"
                 className="about-img"
-              />
+              /> */}
             </div>
             <p className="about-text">
               My journey as a web developer began with a strong fascination for

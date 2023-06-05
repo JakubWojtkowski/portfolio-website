@@ -454,30 +454,27 @@ span {
 }
 
 .about-img-parent {
-  margin: auto;
-  max-width: 200px;
-  min-width: 125px;
-  width: 100%;
+  width: 15rem;
+  height: 17.5rem;
   grid-column: 2 / span 2;
   grid-row: 1 / span 2;
-  border-radius: 25%;
-  transition: all 1s;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-}
 
-.about-img {
-  margin: auto;
+  background-image: url("https://images.pexels.com/photos/879109/pexels-photo-879109.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: 50%;
+  background-repeat: no-repeat;
   background-size: cover;
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-  transition: all 1.1s;
+  filter: grayscale(100%);
+
+  color: white;
+  position: relative;
+  box-shadow: 20px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+  transition: all 0.4s ease-in-out;
 }
 
-.about-img:hover {
-  transform: scale(1.2);
+.about-img-parent:hover {
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 @media screen and (max-width: 992px) {
@@ -489,7 +486,8 @@ span {
   .about-img-parent {
     grid-column: 1;
     grid-row: 2;
-    width: 50%;
+    width: 12.5rem;
+    height: 15rem;
   }
 
   .about-text-data {
@@ -497,7 +495,8 @@ span {
     justify-content: center;
   }
 
-  .about-text, .about-text-data {
+  .about-text,
+  .about-text-data {
     width: 50%;
     font-size: 0.9rem;
   }
@@ -511,7 +510,10 @@ span {
     width: 40%;
   }
 
-  
+  .about-img-parent {
+    width: 10rem;
+    height: 12.5rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -759,9 +761,10 @@ span {
   color: #d3ded3;
 }
 
-.projects-main-dot:hover {
+.projects-main-dot:hover, .active {
   color: #303030;
 }
+
 
 /* Contact */
 
@@ -902,7 +905,7 @@ span {
 
 /* Scrollbar */
 body::-webkit-scrollbar {
-  width: 8px;
+  width: 12px;
 }
 
 body::-webkit-scrollbar-track {

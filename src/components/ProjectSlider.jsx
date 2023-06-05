@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { usePrevious } from "@uidotdev/usehooks";
 
 function ProjectSlider({ projects }) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const previousIndex = usePrevious(currentIndex);
 
   const goToPrevious = () => {
     const isFirstIndex = currentIndex === 0;
@@ -15,8 +17,12 @@ function ProjectSlider({ projects }) {
     setCurrentIndex(newIndex);
   };
 
-  const goToSlide = (index) => {
-    setCurrentIndex(index);
+  const goToSlide = (e) => {
+    const activeDot = document.querySelector(".active");
+    if (activeDot != null) activeDot.classList.remove("active");
+
+    e.target.classList.add("active");
+    setCurrentIndex(e.target.id);
   };
 
   return (
@@ -54,7 +60,8 @@ function ProjectSlider({ projects }) {
             <div
               className="projects-main-dot"
               key={index}
-              onClick={() => goToSlide(index)}
+              id={index}
+              onClick={(e) => goToSlide(e)}
             >
               •
             </div>
