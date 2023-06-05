@@ -8,21 +8,29 @@ function ProjectSlider({ projects }) {
   const goToPrevious = () => {
     const isFirstIndex = currentIndex === 0;
     const newIndex = isFirstIndex ? projects.length - 1 : currentIndex - 1;
+    
+    const activeDot = document.querySelector(".active");
+    if (activeDot != null) activeDot.classList.remove("active");
+
     setCurrentIndex(newIndex);
   };
 
   const goToNext = () => {
     const isLastSlide = currentIndex === projects.length - 1;
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setCurrentIndex(newIndex);
-  };
 
-  const goToSlide = (e) => {
     const activeDot = document.querySelector(".active");
     if (activeDot != null) activeDot.classList.remove("active");
 
+    setCurrentIndex(newIndex);
+  };
+
+  const goToSlide = (e, index) => {
+    const activeDot = document.querySelector(".active");
+    if (activeDot != null) activeDot.classList.remove("active");
     e.target.classList.add("active");
-    setCurrentIndex(e.target.id);
+
+    setCurrentIndex(index);
   };
 
   return (
@@ -61,7 +69,7 @@ function ProjectSlider({ projects }) {
               className="projects-main-dot"
               key={index}
               id={index}
-              onClick={(e) => goToSlide(e)}
+              onClick={(e) => goToSlide(e, index)}
             >
               •
             </div>
