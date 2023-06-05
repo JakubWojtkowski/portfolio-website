@@ -266,7 +266,6 @@ span {
 /* Intro */
 
 .intro {
-  height: 100%;
   position: relative;
   margin: 10vh auto 0 auto;
 }
@@ -418,7 +417,7 @@ span {
   place-items: center;
   grid-template-columns: 1fr 1fr;
   width: 800px;
-  grid-gap: 40px;
+  grid-gap: 30px;
   margin: 0 auto;
   position: relative;
 }
@@ -497,6 +496,11 @@ span {
     align-items: center;
     justify-content: center;
   }
+
+  .about-text, .about-text-data {
+    width: 50%;
+    font-size: 0.9rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -504,19 +508,21 @@ span {
   .about-text-data,
   .about-text-data-item {
     font-size: 0.8rem;
+    width: 40%;
   }
+
+  
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
   .about-text,
   .about-text-data,
   .about-text-data-item {
     font-size: 0.7rem;
-    min-width: 60%;
+    width: 30%;
   }
-
-  .about-text-data-item span {
-    font-size: 0.6rem;
+  .about-text-data {
+    grid-template-columns: 1fr;
   }
 }
 

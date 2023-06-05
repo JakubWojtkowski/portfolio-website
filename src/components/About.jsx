@@ -22,11 +22,12 @@ function About() {
               />
             </div>
             <p className="about-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed
-              lectus vestibulum mattis ullamcorper. Euismod lacinia at quis
-              risus sed vulputate odio ut enim. Faucibus purus in massa tempor.
-              Iaculis eu non diam phasellus. Maecenas sed enim ut sem viverra.
+              My journey as a web developer began with a strong fascination for
+              technology and a desire to bring ideas to life in the digital
+              realm. Over the years, I have honed my skills in HTML, CSS,
+              JavaScript, and various front-end and back-end frameworks, allowing me to build
+              responsive and dynamic websites that adapt seamlessly to different
+              devices and platforms.
             </p>
 
             <div className="about-text-data">
