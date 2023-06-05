@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <Fade bottom distance="20%" duration={2000}>
+      <Fade bottom distance="20%" duration={2500}>
         <Intro />
         <About />
         <Skills />

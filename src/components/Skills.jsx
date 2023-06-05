@@ -38,13 +38,13 @@ function Skills() {
 
   return (
     <section id="skills">
-      <div class="middle-container">
+      <div class="container container-colour">
         <Wave waveClass="wave" styleClass="shape-fill-second" />
         <div className="skills">
-          <h2>SKILLS</h2>
-          <span className="custom-span">
-            - An overview of my Technical Skills -
-          </span>
+        <div className="items-heading">
+            <h2>SKILLS</h2>
+            <span className="custom-span">- An overview of my Technical Skills -</span>
+          </div>
           <div className="skills-items">
             <Tilt options={defaultOptions}>
               <div className="skill-item-card hidden">

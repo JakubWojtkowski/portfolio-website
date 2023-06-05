@@ -16,11 +16,13 @@ function Contact() {
 
   return (
     <section id="contact">
-      <div className="middle-container">
+      <div className="container container-colour">
         <Wave waveClass="wave" styleClass="shape-fill-second" />
         <div className="contact">
-          <h2>Contact me</h2>
-          <span className="custom-span">- Get in touch -</span>
+          <div className="items-heading">
+            <h2>CONTACT ME</h2>
+            <span className="custom-span">- Get in touch -</span>
+          </div>
           <h1 className="contact-heading">Let's work together.</h1>
 
           <div className="contact-main">
@@ -74,9 +76,7 @@ function Contact() {
               </div>
             </Fade>
             <Fade right>
-              <div className="contact-main-right">
-                {/* <ContactModel /> */}
-              </div>
+              <div className="contact-main-right">{/* <ContactModel /> */}</div>
             </Fade>
           </div>
         </div>

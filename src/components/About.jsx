@@ -5,11 +5,15 @@ import Wave from "./Wave";
 function About() {
   return (
     <section id="about">
-      <div class="middle-container">
+      <div class="container">
         <Wave waveClass="wave" styleClass="shape-fill-first" />
         <div className="about">
           <div className="about-items">
-            <h2>ABOUT ME</h2>
+            <div className="items-heading">
+              <h2>ABOUT ME</h2>
+              <span className="custom-span">- Something about me -</span>
+            </div>
+
             <div className="about-img-parent">
               <img
                 src="./images/me.jpeg"

@@ -46,15 +46,31 @@ span {
   font-size: 0.8rem;
 }
 
-.middle-container {
+.container {
   position: relative;
   margin: 0 auto;
   overflow-x: hidden;
+  display: grid;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.container-colour {
+  background-color: #f9f9f9;
 }
 
 .custom-span {
   color: #848181;
   font-size: 0.7rem;
+}
+
+.items-heading {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
 }
 
 .scroll {
@@ -250,13 +266,7 @@ span {
 /* Intro */
 
 .intro {
-  display: grid;
-  gap: 3rem;
-  align-items: center;
-  justify-content: center;
-  background-color: #f9f9f9;
   height: 100%;
-  padding: 7% 15%;
   position: relative;
   margin: 10vh auto 0 auto;
 }
@@ -363,10 +373,14 @@ span {
   .intro-text-type {
     font-size: 110%;
   }
-  
+
   .intro-img {
     width: 15rem;
     height: 20rem;
+  }
+
+  .intro-text-heading {
+    font-size: 4rem;
   }
 }
 
@@ -381,23 +395,31 @@ span {
   .btn {
     font-size: 10px;
   }
+
+  .intro-text-heading {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro-text-heading {
+    font-size: 2.85rem;
+  }
 }
 
 /* About */
 
 .about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 7% 15%;
+  height: 100%;
 }
 
 .about-items {
   display: grid;
   place-items: center;
   grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
+  width: 800px;
   grid-gap: 40px;
+  margin: 0 auto;
   position: relative;
 }
 
@@ -405,6 +427,8 @@ span {
   line-height: 2;
   text-align: justify;
   color: #3f3f3f;
+  max-width: 500px;
+  min-width: 200px;
 }
 
 .about-text-data {
@@ -413,6 +437,7 @@ span {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 25px;
+  max-width: 500px;
   font-size: 1rem;
 }
 
@@ -456,9 +481,10 @@ span {
   transform: scale(1.2);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 992px) {
   .about-items {
     grid-template-columns: 1fr;
+    min-width: 200px;
   }
 
   .about-img-parent {
@@ -540,10 +566,9 @@ span {
   display: grid;
   place-items: center;
   align-content: center;
+  justify-content: center;
   grid-gap: 10px;
-  padding: 7%;
   position: relative;
-  background-color: #f9f9f9;
 }
 
 .skills-items {
@@ -614,36 +639,48 @@ span {
     min-height: 300px;
     font-size: 0.7rem;
   }
+
+  .skill-item-card-box-element {
+    font-size: 85%;
+  }
+
+  .skill-item-card-box-element span {
+    font-size: 85%;
+  }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
   .skill-item-card {
-    min-width: 250px;
-    min-height: 250px;
+    min-width: 225px;
+    min-height: 225px;
   }
 
   .skill-item-card-box-element img {
     width: 20px;
   }
 }
-/* #9baecc */
 
 /* Projects */
 
 .projects {
+  display: grid;
+  grid-gap: 40px;
+  height: 100%;
+  position: relative;
+}
+
+.projects-items {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 7%;
   position: relative;
-  background-color: #fff;
 }
 
 .projects-main {
   display: flex;
-  min-width: 200px;
+  min-width: 250px;
   max-width: 800px;
   flex-direction: column;
   align-items: start;
@@ -725,8 +762,6 @@ span {
 .contact {
   display: grid;
   place-items: center;
-  padding: 7% 15%;
-  background-color: #f9f9f9;
 }
 
 .contact-main {
@@ -844,7 +879,7 @@ span {
 
 .footer-i:hover {
   color: #8c8c8f;
-  transition: 0.2s;
+  transition: 0.15s;
   scale: 1.15;
 }
 
@@ -881,10 +916,6 @@ body::-webkit-scrollbar-thumb {
 
   h1 {
     font-size: 2.75em;
-  }
-
-  .intro-text-heading {
-    font-size: 3rem;
   }
 
   h2,

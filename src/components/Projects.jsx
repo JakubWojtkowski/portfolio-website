@@ -6,13 +6,16 @@ import projects from "../projects.json";
 function Projects() {
   return (
     <section id="projects">
-      <div className="middle-container">
+      <div className="container">
         <div className="projects">
-          <h2>PROJECTS</h2>
-          <span className="custom-span" style={{ paddingBottom: "2%" }}>
-            - Some of my bigger projects -
-          </span>
-          <ProjectSlider projects={projects} />
+         <div className="items-heading">
+            <h2>PROJECTS</h2>
+            <span className="custom-span">- Some of my bigger projects -</span>
+          </div>
+          <div className="projects-items">
+         
+            <ProjectSlider projects={projects} />
+          </div>
         </div>
       </div>
       <Wave waveClass="wave" styleClass="shape-fill-first" />

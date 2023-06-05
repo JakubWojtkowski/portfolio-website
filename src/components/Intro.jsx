@@ -16,7 +16,7 @@ function Intro() {
 
   return (
     <section id="intro">
-      <div className="middle-container">
+      <div className="container container-colour">
         <div className="intro">
           <div className="intro-items">
             <div className="intro-img">
