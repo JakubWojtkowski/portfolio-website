@@ -1,3 +1,4 @@
+
 import React from "react";
 import { useTypewriter } from "react-simple-typewriter";
 
@@ -33,7 +34,7 @@ function Intro() {
               </p>
               <div className="intro-text-btn">
                 <button className="btn">
-                  <i class="fa-solid fa-terminal"></i>View My Porfolio
+                  <i class="fa-solid fa-terminal"></i><a href="#projects" style={{color: "#f9f9f9", padding: "0"} }>View My Projects</a>
                 </button>
               </div>
             </div>

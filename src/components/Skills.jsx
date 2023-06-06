@@ -41,9 +41,11 @@ function Skills() {
       <div class="container container-colour">
         <Wave waveClass="wave" styleClass="shape-fill-second" />
         <div className="skills">
-        <div className="items-heading">
+          <div className="items-heading">
             <h2>SKILLS</h2>
-            <span className="custom-span">- An overview of my Technical Skills -</span>
+            <span className="custom-span">
+              - An overview of my Technical Skills -
+            </span>
           </div>
           <div className="skills-items">
             <Tilt options={defaultOptions}>
@@ -62,7 +64,7 @@ function Skills() {
                           alt="tech stack logo"
                         />
                         <p>{skill.name}</p>
-                        <span>- {skill.level} -</span>
+                        <span className="skill-level">- {skill.level} -</span>
                       </div>
                     );
                   })}
@@ -86,7 +88,7 @@ function Skills() {
                           alt="tech stack logo"
                         />
                         <p>{skill.name}</p>
-                        <span>- {skill.level} -</span>
+                        <span className="skill-level">- {skill.level} -</span>
                       </div>
                     );
                   })}
