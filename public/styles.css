@@ -82,7 +82,7 @@ span {
   margin: 0;
   text-align: center;
   position: relative;
-  color: #e3e2e2;
+  color: #f9f9f9;
   background-color: #303030;
   border: 1px solid #111;
   border-radius: 28px;
@@ -91,13 +91,14 @@ span {
   height: 44px;
   width: 160px;
   padding: 10px 20px;
-  box-shadow: #3a3939 3px 3px 3px;
+  box-shadow: #303030 3px 3px 3px;
   font-family: "Montserrat";
+  
 }
 
 .btn:hover {
-  transition: 0.3s;
   box-shadow: none;
+  transition: all 0.2s;
 }
 
 /* Nav */
@@ -316,6 +317,10 @@ span {
   flex-direction: column;
   place-items: start;
   flex: 0 0 300px;
+}
+
+.intro-text-btn {
+  margin: 0 auto;
 }
 
 .intro-text-type {
@@ -723,7 +728,12 @@ span {
   align-items: start;
   justify-content: start;
   padding: 10px 20px;
+  font-size: 2rem;
   color: #464646;
+}
+
+.projects-main-text h3, span {
+  font-size: clamp(0.6rem, 2.5vw, 1.2rem);
 }
 
 .left-arrow {

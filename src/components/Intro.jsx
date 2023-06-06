@@ -19,8 +19,7 @@ function Intro() {
       <div className="container container-colour">
         <div className="intro">
           <div className="intro-items">
-            <div className="intro-img">
-            </div>
+            <div className="intro-img"></div>
             <div className="intro-text">
               <h1 className="intro-text-heading">
                 Web
@@ -32,9 +31,11 @@ function Intro() {
                 I'm a passionate about creating awesome websites that make
                 people happy and catch the eye.
               </p>
-              <button className="btn">
-                <i class="fa-solid fa-terminal"></i>View My Porfolio
-              </button>
+              <div className="intro-text-btn">
+                <button className="btn">
+                  <i class="fa-solid fa-terminal"></i>View My Porfolio
+                </button>
+              </div>
             </div>
           </div>
         </div>

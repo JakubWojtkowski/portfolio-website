@@ -54,7 +54,7 @@ function ProjectSlider({ projects }) {
               rel="noreferrer"
             >
               <i
-                style={{ fontSize: "1.5rem" }}
+               
                 className={projects[currentIndex].icon}
               ></i>
             </a>{" "}
