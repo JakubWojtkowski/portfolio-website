@@ -15,7 +15,7 @@ export default function Model(props) {
   return (
     <group {...props} dispose={null}>
       <group scale={0.01}>
-        <group scale={600}>
+        <group scale={580}>
           <mesh geometry={nodes.Frame_Frame_0.geometry} material={materials.Frame} />
           <mesh geometry={nodes.Frame_Frame2_0.geometry} material={materials.Frame2} />
           <mesh geometry={nodes.Frame_Port_0.geometry} material={materials.Port} />

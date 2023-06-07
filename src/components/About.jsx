@@ -14,20 +14,14 @@ function About() {
               <span className="custom-span">- Something about me -</span>
             </div>
 
-            <div className="about-img-parent">
-              {/* <img
-                src="./images/me.jpeg"
-                alt="about me img"
-                className="about-img"
-              /> */}
-            </div>
+            <div className="about-img-parent"></div>
             <p className="about-text">
               My journey as a web developer began with a strong fascination for
               technology and a desire to bring ideas to life in the digital
               realm. Over the years, I have honed my skills in HTML, CSS,
-              JavaScript, and various front-end and back-end frameworks, allowing me to build
-              responsive and dynamic websites that adapt seamlessly to different
-              devices and platforms.
+              JavaScript, and various front-end and back-end frameworks,
+              allowing me to build responsive and dynamic websites that adapt
+              seamlessly to different devices and platforms.
             </p>
 
             <div className="about-text-data">
