@@ -76,7 +76,9 @@ function Contact() {
               </div>
             </Fade>
             <Fade right>
-              <div className="contact-main-right">{/* <ContactModel /> */}</div>
+              <div className="contact-main-right">
+                <ContactModel />
+              </div>
             </Fade>
           </div>
         </div>

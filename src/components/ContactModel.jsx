@@ -1,71 +1,39 @@
 import React from "react";
-import { useEffect } from "react";
-import * as THREE from "three";
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+// import { useRef, useState } from "react";
+import { Canvas, useFrame } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
+// import { useGLTF } from "@react-three/drei";
+import Iphone from "./Iphone"
+import { Suspense } from "react";
 
 function ContactModel() {
-  useEffect(() => {
-    const scene = new THREE.Scene();
+  return (
+    <Canvas>
+      {/* <ambientLight intensity={0.5} />
+      <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+      <pointLight position={[-10, -10, -10]} />
+      <Box position={[0, 0, 0]} /> */}
+      <OrbitControls
+        enableZoom={false}
 
-    const camera = new THREE.PerspectiveCamera(
-      50,
-      window.innerWidth / window.innerHeight,
-      0.1,
-      1000
-    );
-
-    camera.position.z = 69;
-
-    const canvas = document.getElementById("bg");
-    const renderer = new THREE.WebGLRenderer({
-      canvas,
-      antialias: true,
-    });
-    renderer.setSize(window.innerWidth, window.innerHeight);
-
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
-    ambientLight.castShadow = true;
-    scene.add(ambientLight);
-
-    const spotLight = new THREE.SpotLight(0xffffff, 1);
-    spotLight.position.set(0, 64, 32);
-    scene.add(spotLight);
-
-    const boxGeometry = new THREE.BoxGeometry(16, 16, 16);
-    const boxMaterial = new THREE.MeshNormalMaterial();
-
-    const boxMesh = new THREE.Mesh(boxGeometry, boxMaterial);
-    scene.add(boxMesh);
-
-    renderer.setClearColor(0xffffff, 0); // second param is opacity, 0 => transparent
-
-    // resize functionality
-    window.addEventListener("resize", () => {
-      //update camera
-      camera.aspect = window.innerWidth / window.innerHeight;
-      camera.updateProjectionMatrix();
-      renderer.setSize(window.innerWidth, window.innerHeight);
-    });
-
-    const controls = new OrbitControls(camera, renderer.domElement);
-    controls.enableDamping = true;
-    controls.enablePan = false;
-    controls.enableZoom = false;
-    controls.autoRotate = true;
-
-    controls.addEventListener("onMouseMove", function () {
-      controls.autoRotate = false;
-    });
-
-    const animate = () => {
-      controls.update();
-      renderer.render(scene, camera);
-      window.requestAnimationFrame(animate);
-    };
-    animate();
-  }, []);
-
-  return <canvas style={{}} id="bg"></canvas>;
+        // maxAzimuthAngle={Math.PI / 4}
+        // maxPolarAngle={Math.PI}
+        // minAzimuthAngle={-Math.PI / 4}
+        // minPolarAngle={0}
+      />
+      <ambientLight intensity={1} />
+      <spotLight
+        intensity={0.5}
+        angle={0.1}
+        penumbra={1}
+        position={[10, 15, 10]}
+        castShadow
+      />
+      <Suspense fallback={null}>
+        <Iphone path={"/scene.gltf"}/>
+      </Suspense>
+    </Canvas>
+  );
 }
 
 export default ContactModel;
