@@ -21,7 +21,7 @@ function Contact() {
         <div className="contact">
           <div className="items-heading">
             <h2>CONTACT ME</h2>
-            <span className="custom-span">- Get in touch -</span>
+            <span className="custom-span">- Let's get coffee together -</span>
           </div>
           <h1 className="contact-heading">Let's work together.</h1>
 
