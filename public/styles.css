@@ -246,8 +246,8 @@ span {
     padding: 0;
   }
 
-  .logo img {
-    width: 30%;
+  .logo {
+    font-size: 1rem;
   }
 
   .dropdown-menu {
