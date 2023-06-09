@@ -39,6 +39,7 @@ h3 {
   padding-top: 10px;
   font-size: 0.9rem;
   letter-spacing: 0.5px;
+  color: #3f3f3f;
 }
 
 span {
@@ -418,6 +419,10 @@ span {
   min-width: 200px;
 }
 
+.about-text b {
+  color: #111;
+}
+
 .about-text-data {
   display: grid;
   place-items: start;
@@ -608,6 +613,7 @@ span {
   flex-direction: column;
   place-items: center;
   padding-bottom: 1.5rem;
+  color: #3f3f3f;
 }
 
 .skill-level {
@@ -862,7 +868,7 @@ span {
 .footer {
   width: 100%;
   border-top: 1px solid #e6e4e4;
-  background-color: #373737;
+  background-color: #3f3f3f;
   color: #8c8c8f;
   padding: 1rem 0;
   font-size: 0.8rem;
@@ -894,6 +900,10 @@ span {
   color: #8c8c8f;
   transition: 0.15s;
   scale: 1.15;
+}
+
+.footer h3 {
+  color: #8c8c8f;
 }
 
 @media screen and (max-width: 768px) {
