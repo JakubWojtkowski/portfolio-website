@@ -6,14 +6,18 @@ import { Suspense } from "react";
 
 function ContactModel() {
   return (
-    <Canvas style={{ cursor: "pointer" }} camera={{ position: [3, 4, 8] }}>
+    <Canvas
+      frameloop="demand"
+      style={{ cursor: "pointer" }}
+      camera={{ position: [3, 4, 8] }}
+    >
       <OrbitControls
         enableZoom={false}
         enablePan={true}
         // maxAzimuthAngle={Math.PI / 4}
-        // maxPolarAngle={Math.PI}
-        // minAzimuthAngle={-Math.PI / 4}
-        // minPolarAngle={0}
+        maxPolarAngle={Math.PI/3}
+        minAzimuthAngle={-Math.PI / 4}
+        minPolarAngle={0}
       />
       <ambientLight intensity={0.75} />
       <spotLight

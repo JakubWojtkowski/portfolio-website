@@ -7,18 +7,22 @@ Source: https://sketchfab.com/3d-models/coffee-cup-992750b0df674378989fa915b0688
 Title: Coffee Cup
 */
 
-import React from 'react';
-import { useGLTF } from '@react-three/drei'
+import React from "react";
+import { useGLTF } from "@react-three/drei";
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/coffee.gltf')
+  const { nodes, materials } = useGLTF("/coffee.gltf");
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]} scale={5}>
-        <mesh geometry={nodes.defaultMaterial.geometry} material={materials.DefaultMaterial} rotation={[Math.PI / 2, 0, 0]} />
+        <mesh
+          geometry={nodes.defaultMaterial.geometry}
+          material={materials.DefaultMaterial}
+          rotation={[Math.PI / 2, 0, 0]}
+        />
       </group>
     </group>
-  )
+  );
 }
 
-useGLTF.preload('/coffee.gltf')
+useGLTF.preload("/coffee.gltf");
