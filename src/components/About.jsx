@@ -1,12 +1,10 @@
 import React from "react";
 import infromations from "../informations.json";
-import Wave from "./Wave";
 
 function About() {
   return (
     <section id="about">
       <div class="container">
-        <Wave waveClass="wave" styleClass="shape-fill-first" />
         <div className="about">
           <div className="about-items">
             <div className="items-heading">

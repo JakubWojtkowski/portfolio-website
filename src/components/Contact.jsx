@@ -16,8 +16,8 @@ function Contact() {
 
   return (
     <section id="contact">
+      <Wave waveClass="wave wave-second" styleClass="shape-fill-second" />
       <div className="container container-colour">
-        <Wave waveClass="wave" styleClass="shape-fill-second" />
         <div className="contact">
           <div className="items-heading">
             <h2>CONTACT ME</h2>
@@ -77,7 +77,7 @@ function Contact() {
             </Fade>
             <Fade right>
               <div className="contact-main-right">
-                <ContactModel />
+                {/* <ContactModel /> */}
               </div>
             </Fade>
           </div>

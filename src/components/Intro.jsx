@@ -1,6 +1,6 @@
-
 import React from "react";
 import { useTypewriter } from "react-simple-typewriter";
+import Wave from "./Wave";
 
 function Intro() {
   const [text] = useTypewriter({
@@ -34,12 +34,19 @@ function Intro() {
               </p>
               <div className="intro-text-btn">
                 <button className="btn">
-                  <i class="fa-solid fa-terminal"></i><a href="#projects" style={{color: "#f9f9f9", padding: "0"} }>View My Projects</a>
+                  <i class="fa-solid fa-terminal"></i>
+                  <a
+                    href="#projects"
+                    style={{ color: "#f9f9f9", padding: "0" }}
+                  >
+                    View My Projects
+                  </a>
                 </button>
               </div>
             </div>
           </div>
         </div>
+        <Wave waveClass="wave" styleClass="shape-fill-second" />
       </div>
     </section>
   );

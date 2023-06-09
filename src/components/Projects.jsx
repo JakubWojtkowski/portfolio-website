@@ -1,5 +1,4 @@
 import React from "react";
-import Wave from "./Wave";
 import ProjectSlider from "./ProjectSlider";
 import projects from "../projects.json";
 
@@ -18,7 +17,6 @@ function Projects() {
           </div>
         </div>
       </div>
-      <Wave waveClass="wave" styleClass="shape-fill-first" />
     </section>
   );
 }
