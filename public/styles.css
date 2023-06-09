@@ -735,7 +735,7 @@ span {
   top: 50%;
   transform: translate(0, -50%);
   left: 32px;
-  font-size: clamp(24px, 5vw, 38px);
+  font-size: clamp(28px, 5vw, 38px);
   color: #d3ded3;
   z-index: 1;
   cursor: pointer;
@@ -746,7 +746,7 @@ span {
   top: 50%;
   transform: translate(0, -50%);
   right: 32px;
-  font-size: clamp(24px, 5vw, 38px);
+  font-size: clamp(28px, 5vw, 38px);
   color: #d3ded3;
   z-index: 1;
   cursor: pointer;
