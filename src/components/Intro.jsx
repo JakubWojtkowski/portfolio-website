@@ -46,7 +46,7 @@ function Intro() {
             </div>
           </div>
         </div>
-        <Wave waveClass="wave" styleClass="shape-fill-second" />
+        <Wave waveClass="wave" styleClass="shape-fill" />
       </div>
     </section>
   );

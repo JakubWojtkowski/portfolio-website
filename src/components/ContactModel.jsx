@@ -17,7 +17,7 @@ function ContactModel() {
       />
       <ambientLight intensity={0.75} />
       <spotLight
-        intensity={0.5}
+        intensity={0.1}
         angle={0.1}
         penumbra={1}
         position={[10, 15, 10]}

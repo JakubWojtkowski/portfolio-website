@@ -330,6 +330,7 @@ span {
     flex-direction: column;
     min-width: 200px;
     gap: 50px;
+    margin-bottom: 50px;
   }
 
   .intro-img {
@@ -538,6 +539,7 @@ span {
   height: 74px;
   overflow: hidden;
   transform: rotate(180deg);
+  border: none;
   z-index: 2;
   line-height: 0;
 }
@@ -554,11 +556,7 @@ span {
   height: 74px;
 }
 
-.wave .shape-fill-first {
-  fill: #f9f9f9;
-}
-
-.wave .shape-fill-second {
+.wave .shape-fill {
   fill: #fff;
 }
 
@@ -737,7 +735,7 @@ span {
   top: 50%;
   transform: translate(0, -50%);
   left: 32px;
-  font-size: 38px;
+  font-size: clamp(24px, 5vw, 38px);
   color: #d3ded3;
   z-index: 1;
   cursor: pointer;
@@ -748,7 +746,7 @@ span {
   top: 50%;
   transform: translate(0, -50%);
   right: 32px;
-  font-size: 38px;
+  font-size: clamp(24px, 5vw, 38px);
   color: #d3ded3;
   z-index: 1;
   cursor: pointer;

@@ -38,7 +38,7 @@ function Skills() {
 
   return (
     <section id="skills">
-      <Wave waveClass="wave wave-second" styleClass="shape-fill-second" />
+      <Wave waveClass="wave wave-second" styleClass="shape-fill" />
       <div class="container container-colour">
         <div className="skills">
           <div className="items-heading">
@@ -98,7 +98,7 @@ function Skills() {
           </div>
         </div>
       </div>
-      <Wave waveClass="wave" styleClass="shape-fill-second" />
+      <Wave waveClass="wave" styleClass="shape-fill" />
     </section>
   );
 }
