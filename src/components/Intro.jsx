@@ -7,6 +7,7 @@ function Intro() {
     words: [
       "Book Reader...",
       "Front-end Developer...",
+      "Back-end Developer...",
       "Fullstack Developer...",
       "Jakub Wojtkowski.",
     ],
@@ -23,7 +24,7 @@ function Intro() {
             <div className="intro-img"></div>
             <div className="intro-text">
               <h1 className="intro-text-heading">
-                Web
+                Full-Stack
                 <br /> Developer.
               </h1>
               <span className="intro-text-type">- {text}</span>

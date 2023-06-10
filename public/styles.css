@@ -319,7 +319,7 @@ span {
   box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.2);
   width: 25rem;
   height: 30rem;
-  animation: animate 7s infinite;
+  animation: animate 5s infinite;
 }
 
 @keyframes animate {
@@ -490,7 +490,7 @@ span {
 }
 
 .about-img-parent {
-  width: 15rem;
+  width: 17rem;
   height: 17.5rem;
   grid-column: 2 / span 2;
   grid-row: 1 / span 2;
@@ -521,7 +521,7 @@ span {
   .about-img-parent {
     grid-column: 1;
     grid-row: 2;
-    width: 12.5rem;
+    width: 14.5rem;
     height: 15rem;
   }
 
@@ -546,7 +546,7 @@ span {
   }
 
   .about-img-parent {
-    width: 10rem;
+    width: 12rem;
     height: 12.5rem;
   }
 }

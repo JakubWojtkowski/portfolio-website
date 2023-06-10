@@ -14,7 +14,7 @@ function About() {
 
             <div className="about-img-parent"></div>
             <p className="about-text">
-              My journey as a<b> web developer </b>began with a strong fascination for
+              My journey as a<b> full-stack developer </b>began with a strong fascination for
               technology and a desire to bring ideas to life in the digital
               realm. Over the years, I have honed my skills in <b>HTML</b>, <b>CSS</b>,
               <b> JavaScript</b>, and various <b>front-end</b> and <b>back-end</b> frameworks,
