@@ -486,7 +486,7 @@ span {
   display: flex;
   padding-top: 10px;
   min-width: 100px;
-  font-size: 0.9rem;
+  font-size: clamp(0.65rem, 2.5vw, 0.9rem);
 }
 
 .about-img-parent {
@@ -558,6 +558,7 @@ span {
     font-size: 0.7rem;
     width: 30%;
   }
+
   .about-text-data {
     grid-template-columns: 1fr;
   }
@@ -734,7 +735,7 @@ span {
 
 .projects-main {
   display: flex;
-  min-width: 250px;
+  min-width: 272px;
   max-width: 800px;
   flex-direction: column;
   align-items: start;
@@ -775,7 +776,7 @@ span {
 
 .projects-main-text h3,
 span {
-  font-size: clamp(0.6rem, 2.5vw, 1.2rem);
+  font-size: clamp(0.85rem, 2.5vw, 1.2rem);
 }
 
 .left-arrow {
