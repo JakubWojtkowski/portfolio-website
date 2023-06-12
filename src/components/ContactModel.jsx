@@ -15,7 +15,7 @@ function ContactModel() {
         enableZoom={false}
         enablePan={true}
         // maxAzimuthAngle={Math.PI / 4}
-        maxPolarAngle={Math.PI/3}
+        maxPolarAngle={Math.PI / 3}
         minAzimuthAngle={-Math.PI / 4}
         minPolarAngle={0}
       />

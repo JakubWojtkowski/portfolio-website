@@ -8,7 +8,7 @@ function ProjectSlider({ projects }) {
   const goToPrevious = () => {
     const isFirstIndex = currentIndex === 0;
     const newIndex = isFirstIndex ? projects.length - 1 : currentIndex - 1;
-    
+
     const activeDot = document.querySelector(".active");
     if (activeDot != null) activeDot.classList.remove("active");
 
@@ -53,10 +53,7 @@ function ProjectSlider({ projects }) {
               target="_blank"
               rel="noreferrer"
             >
-              <i
-               
-                className={projects[currentIndex].icon}
-              ></i>
+              <i className={projects[currentIndex].icon}></i>
             </a>{" "}
             {projects[currentIndex].date}
           </span>
