@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { usePrevious } from "@uidotdev/usehooks";
 
 function ProjectSlider({ projects }) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const previousIndex = usePrevious(currentIndex);
 
   const goToPrevious = () => {
     const isFirstIndex = currentIndex === 0;

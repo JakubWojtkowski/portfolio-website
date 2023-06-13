@@ -18,18 +18,19 @@ a:hover {
   color: #303030;
 }
 
+h1, h2, h3 {
+  color: #303030;
+  font-family: "Montserrat";
+}
+
 h1 {
   font-size: 3.5rem;
-  font-family: "Montserrat";
   text-align: left;
-  color: #303030;
 }
 
 h2 {
   letter-spacing: 1px;
-  font-size: 90%;
-  color: #3f3f3f;
-  font-family: "Montserrat";
+  font-size: clamp(0.75rem, 2.5vw, 0.9rem);
   text-align: left;
   display: flex;
   align-items: center;
@@ -37,9 +38,9 @@ h2 {
 
 h3 {
   padding-top: 10px;
-  font-size: 0.9rem;
+  font-weight: lighter;
+  font-size: clamp(0.6rem, 2.5vw, 0.9rem);
   letter-spacing: 0.5px;
-  color: #3f3f3f;
 }
 
 span {
@@ -64,8 +65,7 @@ span {
 }
 
 .custom-span {
-  color: #848181;
-  font-size: 0.7rem;
+  font-size: clamp(0.55rem, 2vw, 0.7rem);
 }
 
 .items-heading {
@@ -111,11 +111,6 @@ span {
 
   h1 {
     font-size: 2.75em;
-  }
-
-  h2,
-  .custom-span {
-    font-size: 65%;
   }
 
   .custom-span {
