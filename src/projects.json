@@ -45,5 +45,13 @@
         "link": "https://github.com/JakubWojtkowski/SecretsPage-auth",
         "icon": "fa-brands fa-github",
         "date": "March, 2023"
+    },
+    {
+        "id": 7,
+        "image": "./images/StoreEverything.png",
+        "name": "StoreEverything",
+        "link": "https://github.com/JakubWojtkowski/StoreEverything",
+        "icon": "fa-brands fa-github",
+        "date": "June, 2023"
     }
 ]
