@@ -2,6 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import Wave from "./Wave";
 import ContactModel from "./ContactModel";
+import cv from "./../files/cv.pdf";
 
 function Contact() {
   function addClass(event) {
@@ -68,9 +69,9 @@ function Contact() {
                   </span>
                   <div className="contact-main-element-text">
                     <h3>CV</h3>
-                    <button className="btn">
+                    <a href={cv} download="JakubWojtkowski-CV">
                       <i class="fa-solid fa-file"></i> Download CV
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
