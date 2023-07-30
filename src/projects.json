@@ -1,10 +1,10 @@
 [{
         "id": 1,
-        "image": "./images/keeper-third.png",
-        "name": "Keeper-app_v2",
-        "link": "https://github.com/JakubWojtkowski/Keeper-app_v2",
+        "image": "./images/thaifood.png",
+        "name": "ThaiFood",
+        "link": "https://github.com/JakubWojtkowski/Restaurant-website",
         "icon": "fa-brands fa-github",
-        "date": "April, 2023"
+        "date": "July, 2023"
     },
     {
         "id": 2,
@@ -53,5 +53,13 @@
         "link": "https://github.com/JakubWojtkowski/StoreEverything",
         "icon": "fa-brands fa-github",
         "date": "June, 2023"
+    },
+    {
+        "id": 8,
+        "image": "./images/keeper-third.png",
+        "name": "Keeper-app_v2",
+        "link": "https://github.com/JakubWojtkowski/Keeper-app_v2",
+        "icon": "fa-brands fa-github",
+        "date": "April, 2023"
     }
 ]
