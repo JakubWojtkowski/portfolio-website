@@ -1,4 +1,12 @@
 [{
+        "id": 0,
+        "image": "./images/tesla-clone.png",
+        "name": "Tesla-clone",
+        "link": "https://github.com/JakubWojtkowski/tesla-clone",
+        "icon": "fa-brands fa-github",
+        "date": "August, 2023"
+    },
+    {
         "id": 1,
         "image": "./images/thaifood.png",
         "name": "ThaiFood",
