@@ -43,6 +43,10 @@ h3 {
   letter-spacing: 0.5px;
 }
 
+i {
+  transition: all 250ms ease-in-out;
+}
+
 span {
   color: #848181;
   font-size: 0.8rem;
@@ -87,20 +91,22 @@ span {
   position: relative;
   color: #f9f9f9;
   background-color: #303030;
-  border: 1px solid #111;
+  border: 1px solid #303030;
   border-radius: 28px;
   cursor: pointer;
   font-size: 12px;
   height: 44px;
   width: 160px;
   padding: 10px 20px;
-  box-shadow: #303030 3px 3px 3px;
+  box-shadow: #303030 1px 2px 2px;
   font-family: "Montserrat";
+  transition: all 0.25s;
 }
 
 .btn:hover {
-  box-shadow: none;
-  transition: all 0.2s;
+  border: none;
+  transform: translate3d(0.25em, 0.25em, 10em);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 768px) {
@@ -349,8 +355,9 @@ span {
 
 .intro-text-type {
   font-size: 1.2rem;
-  font-family: "Ubuntu";
+  font-family: "Montserrat";
   background: #303030;
+  font-weight: lighter;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -881,7 +888,7 @@ span {
 
 .icon {
   font-size: 1.5rem;
-  color: #3a3d4e;
+  color: #212644;
 }
 
 @media screen and (max-width: 992px) {
@@ -930,16 +937,17 @@ span {
 .footer-i {
   color: #f9f9f9;
   font-size: 1.1rem;
+  transition: all 250ms;
 }
 
 .footer-i:hover {
   color: #8c8c8f;
-  transition: 0.15s;
-  scale: 1.15;
+  scale: 1.11;
 }
 
 .footer h3 {
   color: #8c8c8f;
+  font-family: "Montserrat", "Helvetica Neue";
 }
 
 @media screen and (max-width: 768px) {

@@ -16,6 +16,14 @@
     },
     {
         "id": 2,
+        "image": "./images/disneyplus.png",
+        "name": "Disney-clone",
+        "link": "https://github.com/JakubWojtkowski/disneyplus-clone",
+        "icon": "fa-brands fa-github",
+        "date": "August, 2023"
+    },
+    {
+        "id": 3,
         "image": "./images/opend.png",
         "name": "OpenD",
         "link": "https://github.com/JakubWojtkowski/opend",
@@ -23,7 +31,7 @@
         "date": "May, 2023"
     },
     {
-        "id": 3,
+        "id": 4,
         "image": "./images/warehouse-app.png",
         "name": "WarehouseApp",
         "link": "https://github.com/JakubWojtkowski/WarehouseApp",
@@ -31,15 +39,15 @@
         "date": "January, 2023"
     },
     {
-        "id": 4,
-        "image": "./images/blog.png",
-        "name": "Blog-Website",
-        "link": "https://github.com/JakubWojtkowski/Blog-Website",
+        "id": 5,
+        "image": "./images/giarddesign.png",
+        "name": "GiardDesign",
+        "link": "https://github.com/JakubWojtkowski/giard-design",
         "icon": "fa-brands fa-github",
-        "date": "April, 2023"
+        "date": "August, 2023"
     },
     {
-        "id": 5,
+        "id": 6,
         "image": "./images/todolist-v1.png",
         "name": "ToDoList-v1",
         "link": "https://github.com/JakubWojtkowski/toDoList-v1",
@@ -47,7 +55,7 @@
         "date": "March, 2023"
     },
     {
-        "id": 6,
+        "id": 7,
         "image": "./images/secrets.png",
         "name": "SecretsPage-auth",
         "link": "https://github.com/JakubWojtkowski/SecretsPage-auth",
@@ -55,7 +63,7 @@
         "date": "March, 2023"
     },
     {
-        "id": 7,
+        "id": 8,
         "image": "./images/StoreEverything.png",
         "name": "StoreEverything",
         "link": "https://github.com/JakubWojtkowski/StoreEverything",
@@ -63,7 +71,7 @@
         "date": "June, 2023"
     },
     {
-        "id": 8,
+        "id": 9,
         "image": "./images/keeper-third.png",
         "name": "Keeper-app_v2",
         "link": "https://github.com/JakubWojtkowski/Keeper-app_v2",
