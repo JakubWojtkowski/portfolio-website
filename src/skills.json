@@ -1,15 +1,15 @@
 {
     "frontend": [{
             "id": 1,
-            "icon": "./images/logos/angular-logo.png",
-            "name": "Angular.js",
-            "level": "Basic"
-        },
-        {
-            "id": 2,
             "icon": "./images/logos/react-logo.png",
             "name": "React.js",
             "level": "Intermediate"
+        },
+        {
+            "id": 2,
+            "icon": "./images/logos/angular-logo.png",
+            "name": "Angular.js",
+            "level": "Basic"
         },
         {
             "id": 3,
@@ -31,9 +31,9 @@
         },
         {
             "id": 6,
-            "icon": "./images/logos/git-logo.png",
-            "name": "Git",
-            "level": "Basic"
+            "icon": "./images/logos/tailwindcss-logo.png",
+            "name": "Tailwind CSS",
+            "level": "Intermediate"
         }
     ],
     "backend": [{
