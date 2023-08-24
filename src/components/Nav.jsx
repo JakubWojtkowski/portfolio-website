@@ -31,8 +31,14 @@ function Nav() {
             const dropDownMenu = document.querySelector(".dropdown-menu");
             dropDownMenu.classList.toggle("open");
 
+            // scroll behavior
+            dropDownMenu.classList.contains("open")
+              ? (document.body.style.overflowY = "hidden")
+              : (document.body.style.overflowY = "");
+
             const isOpen = dropDownMenu.classList.contains("open");
 
+            // icon
             isOpen
               ? setIconClass("fa-solid fa-xmark")
               : setIconClass("fa-solid fa-bars-staggered");
@@ -41,6 +47,7 @@ function Nav() {
           <i class={iconClass}></i>
         </button>
 
+        {/* dropdown menu */}
         <div className="dropdown-menu">
           <ul
             className="dropdown-menu-links"
@@ -51,10 +58,13 @@ function Nav() {
 
               const isClosed = dropDownMenu.classList.contains("closed");
 
+              // icon
               isClosed
                 ? setIconClass("fa-solid fa-bars-staggered")
                 : setIconClass("fa-solid fa-xmark");
+
               dropDownMenu.classList.toggle("closed");
+              document.body.style.overflowY = "";
             }}
           >
             <li>

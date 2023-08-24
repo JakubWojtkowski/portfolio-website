@@ -144,7 +144,7 @@ span {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-family: "Montserrat";
   font-weight: lighter;
   padding: 0% 6% 0% 7%;
@@ -159,7 +159,7 @@ span {
 }
 
 .nav-bar-links li a {
-  color: #8c8c8f;
+  color: #848181;
   position: relative;
   font-size: 1rem;
 }
@@ -184,7 +184,7 @@ span {
 }
 
 .toggle-btn {
-  color: #8c8c8f;
+  color: #848181;
   font-size: 1.5rem;
   margin-right: 30px;
   cursor: pointer;
@@ -209,12 +209,11 @@ span {
   width: 100vw;
   height: 0;
   overflow: hidden;
-  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .dropdown-menu.open {
   align-items: center;
-  background-color: #fff;
+  background-color: #f9f9f9;
   display: flex;
   height: 110vh;
   justify-content: center;
@@ -222,7 +221,7 @@ span {
   position: fixed;
   text-align: center;
   top: 0;
-  transition: all 0.3s ease-in-out;
+  transition: height 0.25s ease-in-out;
   width: 100%;
   z-index: 300;
 }
@@ -237,7 +236,7 @@ span {
   position: relative;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 25px;
   list-style: none;
   padding: 0% 6% 0% 7%;
 }
