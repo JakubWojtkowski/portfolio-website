@@ -51,12 +51,16 @@ function ProjectSlider({ projects }) {
               target="_blank"
               rel="noreferrer"
             >
-              <i className={projects[currentIndex].icon}></i>
+              <i
+                className={projects[currentIndex].icon}
+                style={{ fontSize: "1.3rem" }}
+              ></i>
             </a>{" "}
             {projects[currentIndex].date}
           </span>
         </div>
       </div>
+
       <div className="projects-main-dots">
         {projects.map((project, index) => {
           return (
