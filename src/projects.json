@@ -8,19 +8,19 @@
     },
     {
         "id": 1,
-        "image": "./images/thaifood.png",
-        "name": "ThaiFood",
-        "link": "https://github.com/JakubWojtkowski/Restaurant-website",
-        "icon": "fa-brands fa-github",
-        "date": "July, 2023"
-    },
-    {
-        "id": 2,
         "image": "./images/disneyplus.png",
         "name": "Disney-clone",
         "link": "https://github.com/JakubWojtkowski/disneyplus-clone",
         "icon": "fa-brands fa-github",
         "date": "August, 2023"
+    },
+    {
+        "id": 2,
+        "image": "./images/thaifood.png",
+        "name": "ThaiFood",
+        "link": "https://github.com/JakubWojtkowski/Restaurant-website",
+        "icon": "fa-brands fa-github",
+        "date": "July, 2023"
     },
     {
         "id": 3,
@@ -32,6 +32,14 @@
     },
     {
         "id": 4,
+        "image": "./images/whatsapp.png",
+        "name": "Whatsapp-clone",
+        "link": "https://github.com/JakubWojtkowski/whatsapp-clone",
+        "icon": "fa-brands fa-github",
+        "date": "September, 2023"
+    },
+    {
+        "id": 5,
         "image": "./images/warehouse-app.png",
         "name": "WarehouseApp",
         "link": "https://github.com/JakubWojtkowski/WarehouseApp",
@@ -39,7 +47,7 @@
         "date": "January, 2023"
     },
     {
-        "id": 5,
+        "id": 6,
         "image": "./images/giarddesign.png",
         "name": "GiardDesign",
         "link": "https://github.com/JakubWojtkowski/giard-design",
@@ -47,18 +55,10 @@
         "date": "August, 2023"
     },
     {
-        "id": 6,
+        "id": 7,
         "image": "./images/todolist-v1.png",
         "name": "ToDoList-v1",
         "link": "https://github.com/JakubWojtkowski/toDoList-v1",
-        "icon": "fa-brands fa-github",
-        "date": "March, 2023"
-    },
-    {
-        "id": 7,
-        "image": "./images/secrets.png",
-        "name": "SecretsPage-auth",
-        "link": "https://github.com/JakubWojtkowski/SecretsPage-auth",
         "icon": "fa-brands fa-github",
         "date": "March, 2023"
     },
