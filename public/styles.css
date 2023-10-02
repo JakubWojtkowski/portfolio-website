@@ -18,7 +18,9 @@ a:hover {
   color: #303030;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #303030;
   font-family: "Montserrat";
 }
@@ -98,9 +100,10 @@ span {
   height: 44px;
   width: 160px;
   padding: 10px 20px;
-  box-shadow: #303030 1px 2px 2px;
+  box-shadow: #040404 1px 2px 2px;
   font-family: "Montserrat";
   transition: all 0.25s;
+  margin-top: 48px;
 }
 
 .btn:hover {
@@ -911,7 +914,7 @@ span {
 
 .footer {
   width: 100%;
-  background-color: #3f3f3f;
+  background-color: #303030;
   color: #8c8c8f;
   padding: 1rem 0;
   font-size: 0.8rem;
@@ -945,7 +948,8 @@ span {
 }
 
 .footer h3 {
-  color: #8c8c8f;
+  color: #f9f9f9;
+  opacity: 0.6;
   font-family: "Montserrat", "Helvetica Neue";
 }
 
@@ -957,6 +961,10 @@ span {
 
   .footer h3 {
     font-size: 0.65rem;
+  }
+
+  .footer-socials {
+    grid-row: 1;
   }
 }
 
@@ -970,6 +978,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
   outline: 1px solid slategrey;
+  border-radius: 8px;
 }
