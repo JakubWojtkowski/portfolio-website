@@ -36,12 +36,7 @@ function Intro() {
               <div className="intro-text-btn">
                 <button className="btn">
                   <i class="fa-solid fa-terminal"></i>
-                  <a
-                    href="#projects"
-                    style={{ color: "#f9f9f9", padding: "0" }}
-                  >
-                    View My Projects
-                  </a>
+                  <a href="#projects">Portfolio</a>
                 </button>
               </div>
             </div>

@@ -104,6 +104,14 @@ span {
   font-family: "Montserrat";
   transition: all 0.25s;
   margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.btn a {
+  color: rgb(249, 249, 249);
 }
 
 .btn:hover {
@@ -162,7 +170,7 @@ span {
 }
 
 .nav-bar-links li a {
-  color: #848181;
+  color: #303030;
   position: relative;
   font-size: 1rem;
 }
@@ -170,16 +178,13 @@ span {
 .nav-bar-links li a::after {
   content: "";
   position: absolute;
-  background-color: #100e0e;
+  background-color: #303030;
   height: 3px;
+  border-radius: 8px;
   width: 0;
   left: 0;
   bottom: -10px;
   transition: 0.5s;
-}
-
-.nav-bar-links li a:hover {
-  color: #303030;
 }
 
 .nav-bar-links li a:hover::after {
@@ -247,9 +252,6 @@ span {
 .dropdown-menu-links li a {
   padding: 0.7rem;
   font-weight: 500;
-}
-
-.dropdown-menu-links li a:hover {
   color: #303030;
 }
 

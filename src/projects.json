@@ -1,5 +1,13 @@
 [{
         "id": 0,
+        "image": "./images/infusion-oasis.png",
+        "name": "Infusion Oasis",
+        "link": "https://github.com/JakubWojtkowski/infusion-oasis",
+        "icon": "fa-brands fa-github",
+        "date": "October, 2023"
+    },
+    {
+        "id": 1,
         "image": "./images/tesla-clone.png",
         "name": "Tesla-clone",
         "link": "https://github.com/JakubWojtkowski/tesla-clone",
@@ -7,7 +15,7 @@
         "date": "August, 2023"
     },
     {
-        "id": 1,
+        "id": 2,
         "image": "./images/disneyplus.png",
         "name": "Disney-clone",
         "link": "https://github.com/JakubWojtkowski/disneyplus-clone",
@@ -15,15 +23,15 @@
         "date": "August, 2023"
     },
     {
-        "id": 2,
-        "image": "./images/thaifood.png",
-        "name": "ThaiFood",
-        "link": "https://github.com/JakubWojtkowski/Restaurant-website",
+        "id": 3,
+        "image": "./images/ecomease.png",
+        "name": "EcomEase",
+        "link": "https://github.com/JakubWojtkowski/EcomEase",
         "icon": "fa-brands fa-github",
-        "date": "July, 2023"
+        "date": "September, 2023"
     },
     {
-        "id": 3,
+        "id": 4,
         "image": "./images/opend.png",
         "name": "OpenD",
         "link": "https://github.com/JakubWojtkowski/opend",
@@ -31,7 +39,7 @@
         "date": "May, 2023"
     },
     {
-        "id": 4,
+        "id": 5,
         "image": "./images/whatsapp.png",
         "name": "Whatsapp-clone",
         "link": "https://github.com/JakubWojtkowski/whatsapp-clone",
@@ -39,7 +47,7 @@
         "date": "September, 2023"
     },
     {
-        "id": 5,
+        "id": 6,
         "image": "./images/warehouse-app.png",
         "name": "WarehouseApp",
         "link": "https://github.com/JakubWojtkowski/WarehouseApp",
@@ -47,7 +55,7 @@
         "date": "January, 2023"
     },
     {
-        "id": 6,
+        "id": 7,
         "image": "./images/giarddesign.png",
         "name": "GiardDesign",
         "link": "https://github.com/JakubWojtkowski/giard-design",
@@ -55,7 +63,7 @@
         "date": "August, 2023"
     },
     {
-        "id": 7,
+        "id": 8,
         "image": "./images/todolist-v1.png",
         "name": "ToDoList-v1",
         "link": "https://github.com/JakubWojtkowski/toDoList-v1",
@@ -63,7 +71,7 @@
         "date": "March, 2023"
     },
     {
-        "id": 8,
+        "id": 9,
         "image": "./images/StoreEverything.png",
         "name": "StoreEverything",
         "link": "https://github.com/JakubWojtkowski/StoreEverything",
@@ -71,7 +79,7 @@
         "date": "June, 2023"
     },
     {
-        "id": 9,
+        "id": 10,
         "image": "./images/keeper-third.png",
         "name": "Keeper-app_v2",
         "link": "https://github.com/JakubWojtkowski/Keeper-app_v2",

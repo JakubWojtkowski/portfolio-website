@@ -8,7 +8,7 @@ function Projects() {
       <div className="container">
         <div className="projects">
           <div className="items-heading">
-            <h2>PROJECTS</h2>
+            <h2>PORTFOLIO</h2>
             <span className="custom-span">- Some of my bigger projects -</span>
           </div>
           <div className="projects-items">
