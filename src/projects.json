@@ -1,5 +1,20 @@
 [{
         "id": 0,
+        "image": "./images/todolistv2.png",
+        "name": "Todolist-v2",
+        "link": "https://github.com/JakubWojtkowski/toDoList-v2",
+        "icon": "fa-brands fa-github",
+        "date": "December, 2023"
+    },
+    {
+        "id": 1,
+        "image": "./images/infiwheel.jpg",
+        "name": "InfiWheel",
+        "link": "https://github.com/JakubWojtkowski/InfiWheel",
+        "icon": "fa-brands fa-github",
+        "date": "November, 2023"
+    }, {
+        "id": 2,
         "image": "./images/infusion-oasis.png",
         "name": "Infusion Oasis",
         "link": "https://github.com/JakubWojtkowski/infusion-oasis",
@@ -7,7 +22,7 @@
         "date": "October, 2023"
     },
     {
-        "id": 1,
+        "id": 3,
         "image": "./images/tesla-clone.png",
         "name": "Tesla-clone",
         "link": "https://github.com/JakubWojtkowski/tesla-clone",
@@ -15,7 +30,7 @@
         "date": "August, 2023"
     },
     {
-        "id": 2,
+        "id": 4,
         "image": "./images/disneyplus.png",
         "name": "Disney-clone",
         "link": "https://github.com/JakubWojtkowski/disneyplus-clone",
@@ -23,7 +38,7 @@
         "date": "August, 2023"
     },
     {
-        "id": 3,
+        "id": 5,
         "image": "./images/ecomease.png",
         "name": "EcomEase",
         "link": "https://github.com/JakubWojtkowski/EcomEase",
@@ -31,7 +46,7 @@
         "date": "September, 2023"
     },
     {
-        "id": 4,
+        "id": 6,
         "image": "./images/opend.png",
         "name": "OpenD",
         "link": "https://github.com/JakubWojtkowski/opend",
@@ -39,7 +54,7 @@
         "date": "May, 2023"
     },
     {
-        "id": 5,
+        "id": 7,
         "image": "./images/whatsapp.png",
         "name": "Whatsapp-clone",
         "link": "https://github.com/JakubWojtkowski/whatsapp-clone",
@@ -47,7 +62,7 @@
         "date": "September, 2023"
     },
     {
-        "id": 6,
+        "id": 8,
         "image": "./images/warehouse-app.png",
         "name": "WarehouseApp",
         "link": "https://github.com/JakubWojtkowski/WarehouseApp",
@@ -55,7 +70,7 @@
         "date": "January, 2023"
     },
     {
-        "id": 7,
+        "id": 9,
         "image": "./images/giarddesign.png",
         "name": "GiardDesign",
         "link": "https://github.com/JakubWojtkowski/giard-design",
@@ -63,27 +78,11 @@
         "date": "August, 2023"
     },
     {
-        "id": 8,
-        "image": "./images/todolist-v1.png",
-        "name": "ToDoList-v1",
-        "link": "https://github.com/JakubWojtkowski/toDoList-v1",
-        "icon": "fa-brands fa-github",
-        "date": "March, 2023"
-    },
-    {
-        "id": 9,
+        "id": 10,
         "image": "./images/StoreEverything.png",
         "name": "StoreEverything",
         "link": "https://github.com/JakubWojtkowski/StoreEverything",
         "icon": "fa-brands fa-github",
         "date": "June, 2023"
-    },
-    {
-        "id": 10,
-        "image": "./images/keeper-third.png",
-        "name": "Keeper-app_v2",
-        "link": "https://github.com/JakubWojtkowski/Keeper-app_v2",
-        "icon": "fa-brands fa-github",
-        "date": "April, 2023"
     }
 ]

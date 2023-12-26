@@ -972,7 +972,7 @@ span {
 
 /* Scrollbar */
 body::-webkit-scrollbar {
-  width: 12px;
+  width: 8px;
 }
 
 body::-webkit-scrollbar-track {
@@ -982,5 +982,5 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: rgba(0, 0, 0, 0.9);
   outline: 1px solid slategrey;
-  border-radius: 8px;
+  border-radius: 4px;
 }
